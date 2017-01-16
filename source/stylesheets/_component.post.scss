@@ -1,0 +1,153 @@
+
+
+// --------------------------------------------------------------------------
+//   COMPONENT: BLOG POSTS
+// --------------------------------------------------------------------------
+
+
+// Posts tags nav
+// --------------------------------------------------------------------------
+
+.Posts-nav {
+	@include listClean();
+
+	> li {
+		@include TextSm();
+	}
+
+	a {
+		color: palette(muted);
+		padding-bottom: space(0.15);
+	}
+}
+
+// Simple highlighted menu using tags and CSS
+// See: https://gist.github.com/sskylar/c8f6fef2ff6fd49e1169
+// Obsolete in Siteleaf v2
+// .tag.community-events .Posts-nav .community-events,
+// .tag.house-tips .Posts-nav .house-tips,
+// .tag.suburb-profiles .Posts-nav .suburb-profiles {
+//     background-color: palette(brand);
+//     color: palette(black);
+// }
+
+
+// Post block
+// --------------------------------------------------------------------------
+
+a.Post {
+	// @include baseTransition();
+	@include complexLink();
+
+	+ .Post {
+		border-right: 2px solid palette(background);
+		margin-top: space(1.5);
+
+		@include respond-to(xs) { margin-top: space(2.5); }
+		@include respond-to(md) { margin-top: space(3.25); }
+	}
+
+	@include on-event() {
+		.CoverImage {
+			// @include baseTransition();
+			background-blend-mode: multiply;
+			background-color: palette(brand);
+			// filter: grayscale(100%);
+			opacity: 1;
+		}
+	}
+}
+
+.Post-image {
+	margin-top: space(0.3);
+	margin-bottom: space(0.75);
+
+	@include respond-to(xs) {
+		margin-bottom: 0;
+	}
+
+	&--fullWidth {
+		margin-bottom: space(0.75);
+
+		@include respond-to(xs) {
+			margin-bottom: space(1);
+		}
+	}
+
+	&--dark .CoverImage {
+		opacity: 0.5;
+	}
+}
+
+// Special to handle post-image ratios responsively
+.FlexEmbed-ratio--postImage {
+	padding-bottom: 56.25%;
+	@include respond-to(xs) { padding-bottom: 100%; }
+	@include respond-to(md) { padding-bottom: 56.25%; }
+
+	@include when-inside(".Post-image--fullWidth") {
+		padding-bottom: 56.25% !important;
+	}
+}
+
+.Post-title {
+	@include headlineRg();
+}
+
+.Post-tag {
+	@include TextSm();
+	border: 1px solid palette(base);
+	border-radius: size(border-radius, base);
+	color: palette(medium);
+	display: inline-block;
+	padding: space(0.05) space(0.25);
+
+	&:not(:last-child) {
+		margin-right: space(0.25);
+	}
+
+	@include on-event() {
+		background-color: palette(brand);
+		border-color: palette(charcoal);
+	}
+}
+
+.Post-excerpt {
+	@include TextSm();
+}
+
+
+// Post headline vars
+// Includes Next/prev headlines. These are contained within
+// '.FlexEmbed-content.CoverImage' containers.
+// --------------------------------------------------------------------------
+
+.Post-headline {
+	@include headlineRg();
+	color: palette(white);
+	margin: 0;
+	padding: space(0.9) space(1);
+	position: absolute;
+	width: auto;
+
+	&--right {
+		bottom: 0;
+		float: right;
+		right: 0;
+		text-align: right;
+	}
+
+	@include on-event() {
+		color: palette(faint);
+	}
+
+	@include respond-to(xs) {
+		margin: 0;
+		width: 90%;
+	}
+
+	@include respond-to(sm) {
+		margin: 0;
+		width: 75%;
+	}
+}

@@ -1,0 +1,25 @@
+{% comment %}
+    This include requires assigning a variable for {{ profile }}
+    e.g. {% assign profile = site.profiles | where: 'title', 'Therese' | first %}
+{% endcomment %}
+
+{% if profile.mobile %}
+    <li>
+        <a href="tel:{{ profile.mobile }}">
+            <span class="Contact-target">M.</span>
+            {{ profile.mobile }}
+        </a>
+    </li>
+{% endif %}
+<li>
+    <a href="tel:{{ profile.phone }}">
+        <span class="Contact-target">T.</span>
+        {{ profile.phone }}
+    </a>
+</li>
+<li style="white-space:nowrap;">
+    <a href="mailto:{{ profile.email }}">
+        <span class="Contact-target">E.</span>
+        {{ profile.email }}
+    </a>
+</li>

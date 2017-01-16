@@ -1,0 +1,19 @@
+
+
+// --------------------------------------------------------------------------
+// BOOTSTRAP AFFIX COMPONENT
+// --------------------------------------------------------------------------
+
+
+.affix {
+	// only affix on larger viewports
+	@include respond-to(sm) {
+		top: space(2);
+		position: fixed;
+		width: 295px;
+	}
+}
+
+.affix-bottom {
+	position: absolute;
+}

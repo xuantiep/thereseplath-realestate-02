@@ -1,0 +1,49 @@
+
+
+// --------------------------------------------------------------------------
+// OBJECT: RULE
+// --------------------------------------------------------------------------
+
+
+// Rules (replacing HRs)
+
+@mixin Rule(
+    $mixin-color: palette(base),
+    $mixin-weight: 1px
+) {
+    border: 0;
+    border-top: $mixin-weight solid $mixin-color;
+    line-height: 0;
+}
+
+// Indepedent HRs
+
+.HzRule {
+    @include Rule();
+    height: 0;
+    margin-top: calc( #{space(1)} - 1px);
+    margin-bottom: space(1);
+}
+
+// Rules on divs
+
+.DivRule {
+    @include Rule( 3px, palette(charcoal) );
+    padding-top: space(1/3);
+}
+
+.DivRule--light {
+    @include Rule( 1px, palette(base) );
+    padding-top: space(1/3);
+}
+
+.DivRule--medium {
+    @include Rule( 1px, palette(medium) );
+    padding-top: space(1/3);
+}
+
+// Vertical rules
+
+.VertRule--left {
+    border-left: 3px solid palette(background);
+}

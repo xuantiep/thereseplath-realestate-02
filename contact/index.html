@@ -1,0 +1,56 @@
+---
+title: Contact
+layout: default
+---
+
+<section class="Section u-marginT0">
+	<div class="Container">
+
+		<div class="Grid Grid--withGutter">
+			<div class="Grid-cell u-size4of12 u-sm-paddingR2 u-sm-display">
+				<div class="Affix" data-spy="affix" data-offset-top="200">
+					<ul class="u-listClean u-marginB">
+						<li>To contact us, please fill in this form, or use these details:</li>
+						{% assign profile = site.profiles | where: 'title', 'Team' | first %}
+						{% include profile-contact.html %}
+					</ul>
+				</div>
+			</div>
+
+			<div class="Grid-cell u-xs-size9of12 u-sm-before1of12 u-sm-size7of12 u-alignBlockDown">
+				<div class="DivRule"></div>
+				<p class="u-textLg u-textBold u-marginB15">Get in touch</p>
+
+				{% assign profile = site.profiles | where: 'title', 'Therese' | first %}
+				<form class="Form Form--clear" accept-charset="UTF-8" action="https://formspree.io/{{ profile.email }}" method="POST">
+					<div class="Form-group">
+						<label for="name">Full name:</label>
+						<input class="Form-control required" id="name" type="text" name="name" required>
+					</div>
+
+					<div class="Form-group">
+						<label for="email">Email:</label>
+						<input class="Form-control required" id="email" type="email" name="_replyto" required>
+					</div>
+
+					<div class="Form-group">
+						<label for="phone">Phone number:</label>
+						<input class="Form-control required" id="phone" type="text" name="phone" required>
+					</div>
+
+					<div class="Form-group">
+						<label for="comments">Write to us:</label>
+						<textarea class="Form-control" id="comments" type="text" name="message" rows="4" required></textarea>
+					</div>
+
+					<div class="u-textRight u-marginT">
+						<!-- <span class="u-textXs u-colorMedium ButtonLineHeight u-marginT u-marginR">*All fields are required</span> -->
+						<button class="Button Button--primary" type="submit" value="Send" style="min-width:200px">Send</button>
+						<p class="u-textXs u-colorMedium u-marginTD2">*All fields are required</p>
+					</div>
+				</form>
+			</div>
+
+		</div>
+	</div>
+</section>
