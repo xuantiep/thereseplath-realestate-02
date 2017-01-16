@@ -4,11 +4,17 @@ layout: default
 youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 ---
 
+{% comment %}
+ | sort:"date_created"
+{% endcomment %}
+
 <section class="Hero">
 	<div class="gallery">
-		{% assign entry = (site.data.current | sort:"date_created")  %}
-		{% for current in entry limit: "8" %}
-		<a class="gallery-cell" href="/for-sale/{{current.property_id}}.html">
+        {% comment %}
+		{% assign currentArray = (site.data.current)  %}
+		{% for item in currentArray limit: "8" %}
+        <p>{{ item.first_name }}</p>
+		<!-- <a class="gallery-cell" href="/for-sale/{{current.property_id}}.html">
 			<div class="FlexEmbed">
 				<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
 				<div class="FlexEmbed-content">
@@ -18,9 +24,7 @@ youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 							<div class="Grid-cell u-textCenter">
 								<div class="Hero-details">
 									<span class="Property-address">{{current.address_street}}, {{current.address_suburb}}</span>
-									<!-- <span>•</span> -->
 									<span class="Property-price">{{current.price}}</span>
-									<!-- <span>•</span> -->
 									<span class="Property-config">
 										<span class="Property-bedroooms">{{current.bedrooms}}</span>
 										<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
@@ -42,8 +46,9 @@ youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 					</div>
 				</div>
 			</div>
-		</a>
+		</a> -->
 		{% endfor %}
+        {% endcomment %}
 	</div>
 </section>
 
