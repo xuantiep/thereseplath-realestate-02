@@ -28,10 +28,10 @@ defaults:
     list-text-left:
     summary:
 page_gen:
-  - data: current
-    template: _layouts/property-current.html
-    name: residential.uniqueID
-    dir: for-sale
+  - data: 'pet'
+    template: 'profile'
+    name: 'first_name'
+    dir: 'pets'
 description: Therese Plath Real Estate. Selling in all price ranges, in all Cairns
   suburbs. With 25 years experience, Therese provides seamless customer service and
   is one of the State’s outstanding Sales Principals.
