@@ -1,9 +1,15 @@
 ---
-title: Therese Plath Real Estate v2
-timezone: UTC
+title: Therese Plath Real Estate
+timezone: Australia/Brisbane
 collections:
+  general:
+    title: General
+    output: false
   posts:
     title: Posts
+    output: true
+  profiles:
+    title: Profiles
     output: true
   uploads:
     title: Uploads
@@ -14,10 +20,38 @@ defaults:
     type: posts
   values:
     layout: post
-    permalink: "/posts/:title/"
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-permalink: pretty
+    permalink: "/blog/:slug/"
+    header: Blog
+    author: jodie
+    image:
+    list-img-full:
+    list-text-left:
+    summary:
+page_gen:
+  - data: current-2
+    template: current
+    name: name
+    dir: for-sale
+description: Therese Plath Real Estate. Selling in all price ranges, in all Cairns
+  suburbs. With 25 years experience, Therese provides seamless customer service and
+  is one of the State’s outstanding Sales Principals.
+baseurl:
+url: http://www.thereseplath.com.au
+logo: "/uploads/therese-plath-logo.jpg"
+social:
+  name: Therese Plath Real Estate
+  links:
+  - https://www.facebook.com/therese.plath012
+  - https://www.instagram.com/thereseplath.raywhite
+  - https://www.linkedin.com/in/thereseplath
+author: patternworks.com.au
+gems:
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
+exclude:
+- README.markdown
+- package.json
+- gulp.js
+- gulpfile.js
+- node_modules
