@@ -1,5 +1,6 @@
 ---
 title: Testimonials
+layout: testimonials
 date: 2016-06-17 08:27:00 +10:00
 callouts:
 - What a beautiful surprise—so unique and totally unexpected—thank you so much. Thank
@@ -10,7 +11,6 @@ callouts:
   your home. <em>Sharon, Bentley Park</em>
 - 3 very lovely ladies that are very helpful. Thank you for everything! <em>Kayla,
   Bentley Park</em>
-layout: testimonials
 ---
 
 We have been searching around for properties for quite a bit and we are glad to have found Theresa's Sales Team. They were very professional and proactive, they even drove us around to show different properties around our budget. At the end of the day we had seen a lot of good properties and find it hard to decide which one to buy!!! We had a really good experience doing business with their team that we also gave use them to manage our properties (^_^)
@@ -40,7 +40,7 @@ Our experience with Therese whilst purchasing our property was stress free, stra
 
 _— Leondard and Petrice_
 
-Therese proved to be a very competent, reliable and ethical agent with excellent communication skills. Therese kept us informed at every stage of the real estate process had an excellent knowledge of he Cairns market, which we were not familiar with, coming from Melbourne. Therese also had a great knowledge of previous sales which assisted us with understanding the market. Therese was great at the time of the auction, as I was expecting the experience to be rather daunting, but Therese made the process clear and reasonably relaxing. Thanks for all your assistance and providing such a great service. 
+Therese proved to be a very competent, reliable and ethical agent with excellent communication skills. Therese kept us informed at every stage of the real estate process had an excellent knowledge of he Cairns market, which we were not familiar with, coming from Melbourne. Therese also had a great knowledge of previous sales which assisted us with understanding the market. Therese was great at the time of the auction, as I was expecting the experience to be rather daunting, but Therese made the process clear and reasonably relaxing. Thanks for all your assistance and providing such a great service.
 
 _— Alana Brown_
 
