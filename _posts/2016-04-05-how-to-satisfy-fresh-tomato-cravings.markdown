@@ -1,6 +1,6 @@
 ---
 title: How To Satisfy Fresh Tomato Cravings
-date: 2016-04-05 17:16:00 +10:00
+date: 2016-04-05 07:16:00 Z
 published: false
 tags:
 - Suburb profiles

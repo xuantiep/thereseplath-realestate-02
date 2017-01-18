@@ -1,6 +1,6 @@
 ---
 title: Team
-date: 2016-04-19 11:19:00 +10:00
+date: 2016-04-19 01:19:00 Z
 position: 2
 name: Team Plath
 jobtitle: Team Plath

@@ -1,6 +1,6 @@
 ---
 title: Focus On… Bentley Park
-date: 2016-07-14 15:22:00 +10:00
+date: 2016-07-14 05:22:00 Z
 tags:
 - Suburb profiles
 list-text-left: true

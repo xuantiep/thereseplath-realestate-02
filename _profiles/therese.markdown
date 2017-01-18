@@ -1,6 +1,6 @@
 ---
 title: Therese
-date: 2016-04-19 11:17:00 +10:00
+date: 2016-04-19 01:17:00 Z
 position: 1
 name: Therese Plath
 jobtitle: Selling Principal

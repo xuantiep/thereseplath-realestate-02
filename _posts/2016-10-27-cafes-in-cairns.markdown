@@ -1,6 +1,6 @@
 ---
 title: Cafés in Cairns
-date: 2016-10-27 15:13:00 +10:00
+date: 2016-10-27 05:13:00 Z
 tags:
 - Around town
 list-text-left: true

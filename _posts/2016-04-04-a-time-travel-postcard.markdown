@@ -1,6 +1,6 @@
 ---
 title: A Time Travel Postcard
-date: 2016-04-05 00:00:00 +10:00
+date: 2016-04-04 14:00:00 Z
 published: false
 tags:
 - Community events

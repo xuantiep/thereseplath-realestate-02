@@ -1,6 +1,6 @@
 ---
 title: Focus On… Mount Sheridan
-date: 2016-07-07 09:48:00 +10:00
+date: 2016-07-06 23:48:00 Z
 tags:
 - Suburb profiles
 image: "/uploads/iStock_000001568922Small.jpg"

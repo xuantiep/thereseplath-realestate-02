@@ -1,6 +1,6 @@
 ---
 title: Making Indoor Plants Work
-date: 2016-06-30 16:13:00 +10:00
+date: 2016-06-30 06:13:00 Z
 tags:
 - House tips
 list-img-full: true

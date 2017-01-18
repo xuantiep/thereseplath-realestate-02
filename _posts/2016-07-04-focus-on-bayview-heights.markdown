@@ -1,6 +1,6 @@
 ---
 title: Focus on… Bayview Heights
-date: 2016-07-04 15:19:00 +10:00
+date: 2016-07-04 05:19:00 Z
 tags:
 - Suburb profiles
 list-text-left: true

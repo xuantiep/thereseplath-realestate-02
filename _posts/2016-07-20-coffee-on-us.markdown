@@ -1,6 +1,6 @@
 ---
 title: Coffee on Us!
-date: 2016-07-20 12:13:00 +10:00
+date: 2016-07-20 02:13:00 Z
 tags:
 - Community events
 list-img-full: true
