@@ -1,5 +1,6 @@
 ---
 title: For sale
+type: Property
 layout: default
 ---
 
@@ -10,6 +11,7 @@ layout: default
     {% include property-img.html %}
     page.images[0].img[0]['$'].url
     {% assign propertyImages = page.images[0].img | group_by: ['$'].url %}
+    {% assign propertyTitle = "page.address[0].streetNumber" + "page.address[0].street" %}
 {% endcomment %}
 
 {% assign profile = site.profiles | where: 'title', 'Therese' | first %}
@@ -19,8 +21,9 @@ layout: default
         <div class="gallery">
             {% assign propertyImages = page.images[0].img %}
             {% for image in propertyImages %}
-                <!-- <h1>{{ image['$'].url }}</h1> -->
-                {% include property-img.html %}
+                {% if image['$'].url %}
+                    {% include property-img.html %}
+                {% endif %}
             {% endfor %}
         </div>
 	</section>
@@ -36,13 +39,21 @@ layout: default
 				</div>
 
 				<div class="Grid-cell u-xs-size9of12 u-sm-size8of12">
+                    {{ page.title }}
+                    {{ page.name }}
+
                     <h1 class="Property-title">{{ page.headline }}</h1>
-                    <p class="Property-price">
-                        {% if page.price[0].value.display == "yes" %}{{ page.priceView }}{% endif %}
-                    </p>
+                    {% if page.price[0]['$'].display == "yes" %}
+                        <p class="Property-price">{{ page.priceView[0] }}</p>
+                    {% endif %}
 					<div class="DivRule u-marginT15"></div>
-					<p class="Property-address">
-                        {{ page.address[0].streetNumber }} {{ page.address[0].street }}, {{ page.address[0].suburb[0]._ }} {{ page.address[0].postcode }}
+
+                    <p class="Property-address">
+                        {% if page.address[0]['$'].display == "yes" %}
+                            {{ page.address[0].streetNumber }} {{ page.address[0].street }},
+                        {% endif %}
+
+                        {{ page.address[0].suburb[0]._ }} {{ page.address[0].postcode }}
 
 						<span class="Property-config u-marginLD3">
                             {% if page.features[0].bedrooms %}
@@ -54,16 +65,10 @@ layout: default
                             {% if page.features[0].bathrooms %}
                                 <span class="Property-bathrooms">{{ page.features[0].bathrooms }}</span>
     							<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-    								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
+    								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bath"></use>
     							</svg>
                             {% endif %}
-                            {% if page.features[0].carports > "0" %}
-    							<span class="Property-carspaces">{{ page.features[0].carports }}</span>
-    							<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-    								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
-    							</svg>
-                            {% endif %}
-                            {% if page.features[0].garages > "0" %}
+                            {% if page.features[0].garages %}
     							<span class="Property-carspaces">{{ page.features[0].garages }}</span>
     							<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
     								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
@@ -72,18 +77,20 @@ layout: default
 						</span>
 					</p>
 
-					<p class="Property-area">
-                        Land area:
-                        {% if page.landDetails[0].area[0]['$'].unit == "acre" %}{{ page.landDetails[0].area[0]._ }} acres {% endif %}
-                        {% if page.landDetails[0].area[0]['$'].unit == "squareMeter" %}{{ page.landDetails[0].area[0]._ }}m²{% endif %}
-                    </p>
+                    {% if page.landDetails[0].area[0]._ %}
+    					<p class="Property-area">
+                            Land area:
+                            {% if page.landDetails[0].area[0]['$'].unit == "acre" %}{{ page.landDetails[0].area[0]._ }} acres {% endif %}
+                            {% if page.landDetails[0].area[0]['$'].unit == "squareMeter" %}{{ page.landDetails[0].area[0]._ }}m²{% endif %}
+                        </p>
+                    {% endif %}
 
-                    <p class="Property-id">Property ID: {{ page.uniqueID[0] }}</p>
+                    <p class="Property-id">Property ID: {{ page.uniqueID }}</p>
 					<div class="DivRule--light u-marginT15"></div>
 
 					<div class="Grid Grid--withGutter u-marginTD6">
 						<div class="Grid-cell u-sm-size9of12">
-							<p>{{ page.description }}</p>
+							{{ page.description | array_to_sentence_string | markdownify }}
 
 							<div class="u-sm-hide u-marginT2 u-mxs-marginB2">
 								{% include property-map.html %}
