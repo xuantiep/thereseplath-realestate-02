@@ -11,10 +11,10 @@
 
 			{% if page.title == 'Home' %}
 				&nbsp;
-			{% elsif page.title == 'For sale' %}
-				<a class="Header-title" href="/for-sale">{{ page.title }}</a>
+			{% elsif page.title == 'For sale' or page.type == 'Property' %}
+				<a class="Header-title" href="/for-sale">For Sale</a>
 			{% elsif page.title == 'Recent sales' %}
-				<a class="Header-title" href="/recent-sales">{{ page.title }}</a>
+				<a class="Header-title" href="/recent-sales">Recent Sales</a>
 			{% elsif page.header == 'Blog' %}
 				<a class="Header-title" href="/blog">{{ page.header }}</a>
 			{% elsif page.title != 'Home' %}
