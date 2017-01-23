@@ -1,0 +1,70 @@
+
+
+// --------------------------------------------------------------------------
+// LAYOUT: HEADER
+// --------------------------------------------------------------------------
+
+
+.Header {
+	border-top: rem(6) solid palette(brand);
+	padding: space(1) 0;
+	transition-duration: map-fetch($transition, duration, base);
+	transition-duration: 0.2s;
+
+	@include respond-to(xs) {
+		padding: space(2) 0;
+	}
+}
+
+.Header-logo,
+.Header-title {
+	@include headlineRg();
+}
+
+.Header-logo {
+	@include u-link(none);
+	display: inline-block;
+	margin-bottom: 0;
+	margin-right: space(0.25);
+	padding-top: 5px;
+
+	@include respond-to(xs) { padding-top: 0; }
+}
+
+.Header-title {
+	color: palette(muted);
+}
+
+
+// Make the header nav fixed and animate down into view on scroll
+// See: http://codepen.io/Craig-Watson/pen/zGbNRL
+// --------------------------------------------------------------------------
+
+$FixedHeaderHeight: rem(143);
+
+.Header--fixed {
+	background-color: palette(background);
+	background-color: rgba( palette(background), 0.96 );
+	left: 0;
+	margin-bottom: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	transition-duration: map-fetch($transition, duration, base);
+	z-index: 1050;
+
+	// fix weird width problem at mobile…
+	@include respond-to(max-sm) { width: 100vw; }
+}
+
+// This is the req'd wrapper for all other page content.
+// Yeah, I know…
+body > .Content:first-of-type {
+	margin-top: 90px;
+	@include respond-to(xs) { margin-top: $FixedHeaderHeight; }
+}
+
+.Header--fixed-transition {
+	transform: translateY( -#{$FixedHeaderHeight} );
+	transition-duration: map-fetch($transition, duration, long);
+}

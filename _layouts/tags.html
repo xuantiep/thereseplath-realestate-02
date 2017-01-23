@@ -1,0 +1,28 @@
+---
+title: tags
+layout: default
+---
+
+{% if page.title == 'Community events' %}
+	{% assign taggedPosts = site.tags[community events]  %}
+	{% assign tagTest = site.tags | group_by: 'community events' %}
+{% endif %}
+
+<section class="Section u-marginT0">
+	<div class="Container">
+		<div class="Grid Grid--withGutter">
+			<div class="Grid-cell u-sm-size3of12 u-sm-display">
+				<div class="Affix" data-spy="affix" data-offset-top="200">
+					{% include post-aside.html %}
+				</div>
+			</div>
+			<div class="Grid-cell u-sm-size9of12">
+				{% for tag in site.tags | where: 'tag','community events' %}
+					<li><a href="/blog/tags/{{ slug }}">{{ tag.title }}</a></li>
+					{% include post-in-list.html %}
+				{% endfor %}
+			</div>
+
+		</div>
+	</div>
+</section>

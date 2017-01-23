@@ -1,0 +1,106 @@
+---
+title: For sale
+type: Property
+layout: default
+---
+
+{% comment %}
+	This include requires assigning a variable for {{ profile }}
+	e.g. {% assign profile = site.profiles | where: 'title', 'Therese' | first %}
+
+    {% include property-img.html %}
+    page.images[0].img[0]['$'].url
+    {% assign propertyImages = page.images[0].img | group_by: ['$'].url %}
+    {% assign propertyTitle = "page.address[0].streetNumber" + "page.address[0].street" %}
+
+    {{ page.title }}
+    {{ page.name }}
+{% endcomment %}
+
+{% assign profile = site.profiles | where: 'title', 'Therese' | first %}
+
+{% comment %}
+	The page_gen plugin defaults to 'page' as the data source.
+	Changing it here to 'property' for semantics and reuse site-wide.
+{% endcomment %}
+
+{% assign property = page %}
+
+<article class="Property">
+	<section class="Hero u-marginB25">
+        <div class="gallery">
+            {% assign propertyImages = property.images[0].img %}
+            {% for image in propertyImages %}
+                {% if image['$'].url %}
+                    {% include property-img.html %}
+                {% endif %}
+            {% endfor %}
+        </div>
+	</section>
+
+	<section class="">
+		<div class="Container">
+			<div class="Grid Grid--withGutter">
+				<div class="Grid-cell u-size4of12 u-sm-paddingR2 u-alignBlockDown u-sm-display">
+					{% include property-map.html %}
+					<div class="DivRule--light u-marginT"></div>
+					<h3 class="Headline--tertiary">Share this property</h3>
+					{% include share.html %}
+				</div>
+
+				<div class="Grid-cell u-xs-size9of12 u-sm-size8of12">
+
+                    <h1 class="Property-title">{{ property.headline }}</h1>
+                    {% if property.price[0]['$'].display == "yes" %}
+                        <p class="Property-price">{{ property.priceView[0] }}</p>
+                    {% endif %}
+					<div class="DivRule u-marginT15"></div>
+
+                    <p class="Property-address">
+                        {% if property.address[0]['$'].display == "yes" %}
+                            {{ property.address[0].streetNumber }} {{ property.address[0].street }},
+                        {% endif %}
+
+                        {{ property.address[0].suburb[0]._ }} {{ property.address[0].postcode }}
+
+						<span class="Property-config u-marginLD3">
+                            {% include property-features-block.html %}
+						</span>
+					</p>
+
+                    {% if property.landDetails[0].area[0]._ %}
+    					<p class="Property-area">
+                            Land area:
+                            {% if property.landDetails[0].area[0]['$'].unit == "acre" %}{{ property.landDetails[0].area[0]._ }} acres {% endif %}
+                            {% if property.landDetails[0].area[0]['$'].unit == "squareMeter" %}{{ property.landDetails[0].area[0]._ }}m²{% endif %}
+                        </p>
+                    {% endif %}
+
+                    <p class="Property-id">Property ID: {{ property.uniqueID }}</p>
+					<div class="DivRule--light u-marginT15"></div>
+
+					<div class="Grid Grid--withGutter u-marginTD6">
+						<div class="Grid-cell u-sm-size9of12">
+							{{ property.description | array_to_sentence_string | markdownify }}
+
+							<div class="u-sm-hide u-marginT2 u-mxs-marginB2">
+								{% include property-map.html %}
+							</div>
+							<div class="u-sm-hide">
+								<div class="DivRule--light u-marginT"></div>
+								<h3 class="Headline--tertiary">Share this property</h3>
+								{% include share.html %}
+							</div>
+							<div class="u-marginT u-sm-marginT2 u-mxs-marginB2">
+								{% include profile-card.html %}
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+</article>

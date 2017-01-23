@@ -1,0 +1,39 @@
+
+
+// --------------------------------------------------------------------------
+//   TRUMPS: CMS MARKDOWN TYPOGRAPHY
+// --------------------------------------------------------------------------
+
+
+.s-cms-testimonialCallout {
+	@include TextLg();
+	text-align: center;
+
+	em {
+		color: palette(muted);
+	}
+}
+
+.s-cms-testimonialHero {
+	@include headlineRg();
+	color: palette(white);
+	margin-bottom: 0 !important;
+	text-align: center;
+
+	em {
+		color: palette(muted);
+		display: inline-block;
+		font-family: $font-sans-medium-i;
+	}
+}
+
+.s-cms-testimonials {
+	p {
+		// @include each(3) { color: pink; }
+	}
+
+	em {
+		display: inline-block;
+		margin-bottom: space(1.5);
+	}
+}
