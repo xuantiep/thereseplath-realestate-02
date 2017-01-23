@@ -6,12 +6,14 @@
     {% seo title=false %}
 
     <title>{% if page.url != '/' %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+
+    {% comment %}
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta name="author", content="{{ site.author }}" >
+    {% endcomment %}
 
     <link rel="stylesheet" href="{{ "/source/stylesheets/application.css" | prepend: site.baseurl }}">
-
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     {% feed_meta %}
 </head>
