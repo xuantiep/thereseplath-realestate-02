@@ -5,50 +5,48 @@ youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 ---
 
 {% comment %}
- | sort:"date_created"
+	{% assign entry = (site.data.current | sort:"date_created")  %}
 {% endcomment %}
 
 <section class="Hero">
 	<div class="gallery">
-        {% comment %}
-		{% assign currentArray = (site.data.current)  %}
-		{% for item in currentArray limit: "8" %}
-        <p>{{ item.first_name }}</p>
-		<!-- <a class="gallery-cell" href="/for-sale/{{current.property_id}}.html">
-			<div class="FlexEmbed">
-				<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
-				<div class="FlexEmbed-content">
-					<div class="u-posAbsoluteCenter CoverImage CoverImage--hint" style="background-image: url({{current.image}})"></div>
-					<div class="Container u-fullHeight">
-						<div class="Grid Grid--withGutter u-fullHeight u-flex u-flexAlignItemsEnd">
-							<div class="Grid-cell u-textCenter">
-								<div class="Hero-details">
-									<span class="Property-address">{{current.address_street}}, {{current.address_suburb}}</span>
-									<span class="Property-price">{{current.price}}</span>
-									<span class="Property-config">
-										<span class="Property-bedroooms">{{current.bedrooms}}</span>
-										<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-											<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bed"></use>
-										</svg>
-										<span class="Property-bathrooms">{{current.bathrooms}}</span>
-										<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-											<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bath"></use>
-										</svg>
-										<span class="Property-carspaces">{{current.garage}}</span>
-										<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-											<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
-										</svg>
-									</span>
-								</div>
+        {% assign currentProperties = (site.data.current | sort: "['$'].modTime")  %}
+		{% for property in currentProperties limit: "7" %}
+    		<a class="gallery-cell" href="/for-sale/{{ property.uniqueID }}.html">
+    			<div class="FlexEmbed">
+    				<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
+    				<div class="FlexEmbed-content">
+    					<div class="u-posAbsoluteCenter CoverImage CoverImage--hint" style="background-image: url({{ property.images[0].img[0]['$'].url }})"></div>
+    					<div class="Container u-fullHeight">
+    						<div class="Grid Grid--withGutter u-fullHeight u-flex u-flexAlignItemsEnd">
+    							<div class="Grid-cell u-textCenter">
+    								<div class="Hero-details">
 
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</a> -->
+    									<span class="Property-address">
+                                            {% if property.address[0]['$'].display == "yes" %}
+                                                {{ property.address[0].streetNumber }} {{ property.address[0].street }},
+                                            {% endif %}
+                                            {{ property.address[0].suburb[0]._ }}
+                                        </span>
+
+                                        {% if property.price[0]['$'].display == "yes" %}
+                                            <span class="Property-price">{{ property.priceView[0] }}</span>
+                                        {% endif %}
+
+    									<span class="Property-config">
+    										{% include property-features-block.html %}
+    									</span>
+    								</div>
+
+
+
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</a>
 		{% endfor %}
-        {% endcomment %}
 	</div>
 </section>
 
