@@ -42,7 +42,9 @@ layout: default
 		<div class="Container">
 			<div class="Grid Grid--withGutter">
 				<div class="Grid-cell u-size4of12 u-sm-paddingR2 u-alignBlockDown u-sm-display">
-					{% include property-map.html %}
+                    {% if property.Geocode[0].Latitude %}
+                        {% include property-map.html %}
+                    {% endif %}
 					<div class="DivRule--light u-marginT"></div>
 					<h3 class="Headline--tertiary">Share this property</h3>
 					{% include share.html %}
