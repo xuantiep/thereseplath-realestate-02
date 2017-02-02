@@ -23,10 +23,10 @@ defaults:
     permalink: "/blog/:slug/"
     header: Blog
     author: jodie
-    image:
-    list-img-full:
-    list-text-left:
-    summary:
+    image: 
+    list-img-full: 
+    list-text-left: 
+    summary: 
 page_gen:
 - data: current
   template: current
@@ -35,7 +35,7 @@ page_gen:
 description: Therese Plath Real Estate. Selling in all price ranges, in all Cairns
   suburbs. With 25 years experience, Therese provides seamless customer service and
   is one of the State’s outstanding Sales Principals.
-baseurl:
+baseurl: 
 url: http://www.thereseplath.com.au
 logo: "/uploads/therese-plath-logo.jpg"
 google-maps-key: AIzaSyBz-zO0zLbyfo1_fF05QEh6MJTSdR2955E
