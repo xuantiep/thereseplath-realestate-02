@@ -53,6 +53,7 @@
 	// @extend .u-linkBuriedTarget;
 	@include headlineSm();
 	font-family: $font-sans-xbold;
+	font-weight: 800;
 	margin-bottom: space(0.15) !important;
 	text-align: center;
 }

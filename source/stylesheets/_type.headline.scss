@@ -5,12 +5,23 @@
 // --------------------------------------------------------------------------
 
 
-@mixin headlineTemplate() {
-	// @include u-link(none);
-	color: palette(charcoal);
-	line-height: 1.25;
-	margin-bottom: space(0.7);
-	text-align: left;
+@mixin headlineTemplate(
+    $is-fontface: false,
+    $font-weight: normal,
+    $font-style: normal
+) {
+
+    @if $is-fontface {
+        @include typeReset();
+    } @else {
+        font-weight: $font-weight;
+        font-style: $font-style;
+    }
+
+    color: palette(charcoal);
+    line-height: 1.2;
+    margin-bottom: space(0.7);
+    text-align: left;
 
 	// if the headline is a link
 	// https://css-tricks.com/the-sass-ampersand/
@@ -27,9 +38,10 @@
 }
 
 @mixin headlineRg() {
-	@include headlineTemplate();
+	@include headlineTemplate($font-weight: 500);
 	font-family: $font-sans-medium;
 	font-size: fontsize(headerRg, xs);
+    letter-spacing: 0.006em;
 
 	@include respond-to(xs) {
 		font-size: fontsize(headerRg, base);
@@ -37,10 +49,11 @@
 }
 
 @mixin headlineSm() {
-	@include headlineTemplate();
+	@include headlineTemplate($is-fontface: true);
 	font-family: $font-sans-regular;
 	font-size: fontsize(headerSm, xs);
-	line-height: 1.35;
+    letter-spacing: 0.01em;
+	line-height: 1.3;
 
 	@include respond-to(xs) {
 		font-size: fontsize(headerSm, base);

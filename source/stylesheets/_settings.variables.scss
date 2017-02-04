@@ -262,8 +262,7 @@ $size: (
 // $sans-font-name       : 'BentonSans';
 $sans-font-name       : '';
 $fonts-path           : '/build/fonts/';
-$font-sans-stack      : 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-// $font-sans-stack      : -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Cantarell","Open Sans","Helvetica Neue","Ubuntu",sans-serif;
+$font-sans-stack      : -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
 $font-serif-stack     : Georgia, Times, serif;
 
 // Create font-file variables
@@ -300,16 +299,31 @@ $sans-medium-italic   : #{$sans-font-name}medium-italic;
 // Apply font-file variables to a font-stack
 // Only use these variables in our classes.
 
-$font-sans-thin       : join($sans-thin, $font-sans-stack);
-$font-sans-light      : join($sans-light, $font-sans-stack);
-$font-sans-book       : join($sans-book, $font-sans-stack);
-$font-sans-regular    : join($sans-regular, $font-sans-stack);
-$font-sans-regular-i  : join($sans-regular-italic, $font-sans-stack);
-$font-sans-medium     : join($sans-medium, $font-sans-stack);
-$font-sans-medium-i   : join($sans-medium-italic, $font-sans-stack);
-$font-sans-bold       : join($sans-bold, $font-sans-stack);
-$font-sans-xbold      : join($sans-xbold, $font-sans-stack);
-$font-sans-black      : join($sans-black, $font-sans-stack);
+//$font-sans-thin       : join($sans-thin, $font-sans-stack);
+//$font-sans-light      : join($sans-light, $font-sans-stack);
+//$font-sans-book       : join($sans-book, $font-sans-stack);
+//$font-sans-regular    : join($sans-regular, $font-sans-stack);
+//$font-sans-regular-i  : join($sans-regular-italic, $font-sans-stack);
+//$font-sans-medium     : join($sans-medium, $font-sans-stack);
+//$font-sans-medium-i   : join($sans-medium-italic, $font-sans-stack);
+//$font-sans-bold       : join($sans-bold, $font-sans-stack);
+//$font-sans-xbold      : join($sans-xbold, $font-sans-stack);
+//$font-sans-black      : join($sans-black, $font-sans-stack);
+
+// for system fonts only, remove the join
+// and rely on setting `@if $is-fontface` rules
+// in the type mixins.
+
+$font-sans-thin       : $font-sans-stack;
+$font-sans-light      : $font-sans-stack;
+$font-sans-book       : $font-sans-stack;
+$font-sans-regular    : $font-sans-stack;
+$font-sans-regular-i  : $font-sans-stack;
+$font-sans-medium     : $font-sans-stack;
+$font-sans-medium-i   : $font-sans-stack;
+$font-sans-bold       : $font-sans-stack;
+$font-sans-xbold      : $font-sans-stack;
+$font-sans-black      : $font-sans-stack;
 
 // if using @fontface via a cloud service, eg. Google fonts.
 

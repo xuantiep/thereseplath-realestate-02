@@ -8,13 +8,13 @@
 // Using font-face? Use this with it.
 // --------------------------------------------------------------------------
 
-@mixin TypeReset() {
+@mixin typeReset() {
     font-style: normal;
     font-weight: normal;
 }
 
 /* uncss:ignore */
-h1, h2, h3, h4, h5, h6,
+//h1, h2, h3, h4, h5, h6,
 blockquote,
 ul, ol, li, dl, dd
 p, address,
@@ -24,7 +24,7 @@ figure, figcaption,
 table, th, td, caption
 pre, small,
 em, b {
-    @include TypeReset();
+    @include typeReset();
 }
 
 
@@ -36,7 +36,7 @@ em, b {
 // :root {
 
 body {
-    @include TypeReset();
+    @include typeReset();
     color: color(text, charcoal);
     font-family: $font-sans-regular;
     font-size: 100%;

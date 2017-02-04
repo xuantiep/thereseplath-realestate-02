@@ -6,7 +6,7 @@
 
 
 @mixin textTemplate() {
-	@include TypeReset();
+	@include typeReset();
 	color: color(text, charcoal);
 	font-family: $font-sans-regular;
 	line-height: $base-line-height-unit;
@@ -91,14 +91,14 @@ pre, a {
 
 em,
 .u-textEm {
-	@include TypeReset();
+	@include typeReset();
 	font-family: $font-sans-regular-i;
 }
 
 b,
 strong,
 .u-textBold {
-	@include TypeReset();
+	@include typeReset();
 	font-family: $font-sans-bold;
 }
 
