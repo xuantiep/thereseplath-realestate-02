@@ -1,6 +1,12 @@
 <div class="Grid-cell u-flex u-size1of2 u-sm-size1of3">
-	<a class="Property Card" href="/for-sale/{{ property.uniqueID }}.html">
-		<div class="Property-image" style="background-image: url({{ property.images[0].img[0]['$'].url }})"></div>
+	<a class="Property Card"
+        {% if page.title == 'For sale' %}
+            href="/for-sale/{{ property.uniqueID }}.html"
+        {% else %}
+            href="/recent-sales/{{ property.uniqueID }}.html"
+        {% endif %}>
+
+        <div class="Property-image" style="background-image: url({{ property.images[0].img[0]['$'].url }})"></div>
 
 		<div class="Property-details">
 			<h1 class="Property-details--title Arrow-right u-marginB0">{{ property.address[0].suburb[0]._ }}</h1>

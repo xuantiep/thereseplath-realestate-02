@@ -11,9 +11,9 @@
 
 			{% if page.title == 'Home' %}
 				&nbsp;
-			{% elsif page.title == 'For sale' or page.type == 'Property' %}
+			{% elsif page.title == 'For sale' or page.type == 'current' %}
 				<a class="Header-title" href="/for-sale">For Sale</a>
-			{% elsif page.title == 'Recent sales' %}
+			{% elsif page.title == 'Recent sales' or page.type == 'sold'  %}
 				<a class="Header-title" href="/recent-sales">Recent Sales</a>
 			{% elsif page.header == 'Blog' %}
 				<a class="Header-title" href="/blog">{{ page.header }}</a>

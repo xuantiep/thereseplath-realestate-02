@@ -1,9 +1,9 @@
 ---
-title: For sale
+title: Recent sales
 layout: default
 ---
 
-<script type="text/javascript" src="../build/forsale.js"></script>
+<!-- <script type="text/javascript" src="../build/forsale.js"></script> -->
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="DivRule--medium"></div>
@@ -12,7 +12,7 @@ layout: default
 				<div class="Grid-cell u-xs-size5of12">
 
                 	{% assign CurrentSalesSize = 0 %}
-					{% for current in site.data.current %}
+					{% for property in site.data.sold %}
 						{% if forloop.last %}
 							<p class="u-textBold">Showing {{ CurrentSalesSize | plus: forloop.length }} total listings</p>
 						{% endif %}
@@ -37,7 +37,7 @@ layout: default
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
-			{% assign entry = (site.data.current | sort:"date_created") %}
+			{% assign entry = (site.data.sold | sort:"date_created") %}
 			{% for property in entry limit: "12" %}
 				{% include property-in-list.html %}
 			{% endfor %}
