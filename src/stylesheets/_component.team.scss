@@ -18,19 +18,24 @@
 }
 
 .Author-details {
-	background-color: rgba( palette(neutral), 0.7 );
-    //background-color: palette(neutral-light);
+	//background-color: rgba( palette(neutral), 0.7 );
+    border: 1px solid palette(base);
+    border-left: 0;
 	padding: space(0.75);
 
 	@include respond-to(xs) {
 		// padding: space(0.75);
 	}
 
+    .u-linkBuriedTarget {
+        color: currentColor;
+    }
+
 	// Style the post's author block by reusing
 	// the 'card-*.html' include and scoping by context.
 	@include when-inside(".Home") {
 		@extend .u-alignBlockUp;
-		background-color: palette(background);
+		border: 0;
 		padding-top: space(0.75);
 		@include respond-to(xs) { padding: 0 space(0.75); }
 	}

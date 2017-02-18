@@ -38,7 +38,7 @@ var options = {
 
     build : {
         tasks       : [ 'images', 'compile:sass', 'minify:js', 'fonts' ],
-        destination : 'build/'
+        destination : 'public/'
     },
 
     production : {
@@ -46,42 +46,37 @@ var options = {
     },
 
     css : {
-        files       : 'source/stylesheets/*.css',
-        file        : 'source/stylesheets/application.css'
+        files       : 'public/stylesheets/*.css',
+        file        : 'public/stylesheets/application.css'
     },
 
     fonts : {
-        files       : 'source/fonts/*.{otf,ttf,eot,woff,woff2,svg}',
-        destination : 'build/fonts'
+        files       : 'src/fonts/*.{otf,ttf,eot,woff,woff2,svg}',
+        destination : 'public/fonts'
     },
 
     icons : {
-        files       : 'source/icons/ic-*.svg',
-        destination : 'build/icons'
+        files       : 'src/icons/ic-*.svg',
+        destination : 'public/icons'
     },
 
     images : {
-        files       : 'source/images/*',
-        destination : 'build/images'
+        files       : 'src/images/*',
+        destination : 'public/images'
     },
 
     js : {
-        // files       : 'source/scripts/*.js',
+        // files       : 'src/scripts/*.js',
         files : [
             'node_modules/fontfaceonload/dist/fontfaceonload.js',
-            'source/javascripts/*.js'
+            'src/javascripts/*.js'
         ],
-        file        : 'source/javascripts/application.js'
-    },
-
-    pagespeedindex : {
-        site        : 'http://www.thereseplath.com.au/',
-        key         : ''
+        file        : 'src/javascripts/application.js'
     },
 
     sass : {
-        files       : 'source/stylesheets/*.scss',
-        destination : 'source/stylesheets'
+        files       : 'src/stylesheets/*.scss',
+        destination : 'public/stylesheets'
     },
 
     watch : {
@@ -154,30 +149,12 @@ gulp.task( 'compile:sass', function() {
         .pipe( plugins.connect.reload() );
 });
 
-// from W6…
-// gulp.task( 'compile:css', function() {
-//     return gulp
-//         .src(output.css + '/*.css')
-//         .pipe(order([
-//             "vendor.css",
-//             "flickity.css",
-//             "styles.css"
-//         ]))
-//         .pipe(concat('styles.min.css'))
-//         .pipe(cssNano(nanoOptions))
-//         .pipe(gulp.dest(output.css))
-// });
-
 gulp.task( 'minify:css', function () {
     gulp.src( options.css.file )
         .pipe( plugins.plumber() )
         .pipe( plugins.uncss ( {
             html: [
-                '_includes/*.html',
-                '_layouts/*.html',
-                '/blog/*.html',
-                '/info-for/*.html',
-                '*.html'
+                '_site/**/*.html',
             ],
             uncssrc: '.uncssrc'
         } ) )
@@ -206,30 +183,6 @@ gulp.task( 'icons', function() {
         .pipe( plugins.svgmin() )
         .pipe( plugins.svgstore( { inlineSvg: true } ) )
         .pipe( gulp.dest( options.icons.destination ) );
-});
-
-// PageSpeed tests using the `nokey` option.
-// See: https://github.com/addyosmani/psi-gulp-sample/blob/master/gulpfile.js
-
-gulp.task('psiMobile', function () {
-    return plugins.psi( options.pagespeedindex.site, {
-        // key: key
-        nokey: 'true',
-        strategy: 'mobile',
-    }).then(function (data) {
-        console.log('Speed score: ' + data.ruleGroups.SPEED.score);
-        console.log('Usability score: ' + data.ruleGroups.USABILITY.score);
-    });
-});
-
-gulp.task('psiDesktop', function () {
-    return plugins.psi( options.pagespeedindex.site, {
-        // key: key,
-        nokey: 'true',
-        strategy: 'desktop',
-    }).then(function (data) {
-        console.log('Speed score: ' + data.ruleGroups.SPEED.score);
-    });
 });
 
 gulp.task( 'watch', function() {

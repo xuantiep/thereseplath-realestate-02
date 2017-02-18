@@ -38,7 +38,9 @@ layout: default
 				<h1 class="Post-title">{{ page.title }}</h1>
 				<p class="u-textLg">{{ page.summary }}</p>
 				<div class="u-marginT">
-					Tags goes here…
+					{% for tag in page.tags %}
+                        <a class="Post-tag" href="/blog/tags/{{ tag | downcase | replace:' ','+' }}">{{ tag }}</a>
+                    {% endfor %}
 				</div>
 
 				<div class="u-sm-display">

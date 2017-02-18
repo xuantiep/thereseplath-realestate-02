@@ -94,13 +94,14 @@ a.Post {
 	@include headlineRg();
 }
 
-.Post-tag {
+.Post-tag,
+.Sort-tag {
 	@include TextSm();
 	border: 1px solid palette(base);
 	border-radius: size(border-radius, base);
 	color: palette(medium);
 	display: inline-block;
-	padding: space(0.05) space(0.25);
+	padding: space(0.05) space(0.25) space(0.075);
 
 	&:not(:last-child) {
 		margin-right: space(0.25);
@@ -109,12 +110,52 @@ a.Post {
 	@include on-event() {
 		background-color: palette(brand);
 		border-color: palette(charcoal);
+		color: palette(charcoal);
 	}
 }
 
 .Post-excerpt {
 	@include TextSm();
 }
+
+
+
+// Sort tag, based on Post tag
+// --------------------------------------------------------------------------
+
+.Sort-tag {
+    padding: space(0.05) space(0.75) space(0.075);
+}
+
+$arrowSizeSm: 0.18em;
+$arrowSize:   0.3em;
+$arrowMargin: 0.35rem;
+
+@mixin arrow() {
+    content: "";
+    display: inline-block;
+    height: 0;
+    transform: translateY(rem(-1));
+    vertical-align: middle;
+    width: 0;
+}
+
+.Sort-tag.asc:before {
+	@include arrow();
+	border-bottom: $arrowSize solid;
+	border-left: $arrowSize solid transparent;
+	border-right: $arrowSize solid transparent;
+	margin-right: $arrowMargin;
+}
+
+.Sort-tag.desc:before {
+	@include arrow();
+    border-top: $arrowSize solid;
+    border-left: $arrowSize solid transparent;
+    border-right: $arrowSize solid transparent;
+    margin-right: $arrowMargin;
+}
+
 
 
 // Post headline vars

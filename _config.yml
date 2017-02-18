@@ -20,7 +20,7 @@ defaults:
     type: posts
   values:
     layout: post
-    permalink: "/blog/:slug/"
+    permalink: "/blog/:title/"
     header: Blog
     author: jodie
     image: 
@@ -42,6 +42,7 @@ description: Therese Plath Real Estate. Selling in all price ranges, in all Cair
 baseurl: 
 url: http://www.thereseplath.com.au
 logo: "/uploads/therese-plath-logo.jpg"
+google-analytics: UA-78772188-1
 google-maps-key: AIzaSyBz-zO0zLbyfo1_fF05QEh6MJTSdR2955E
 social:
   name: Therese Plath Real Estate
