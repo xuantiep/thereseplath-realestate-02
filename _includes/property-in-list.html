@@ -6,6 +6,12 @@
             href="/recent-sales/{{ property.uniqueID }}.html"
         {% endif %}>
 
+        <div class="Property-sortTags" style="display:none">
+            <p class="price">{{ property.price[0]._ }}</p>
+            <p class="location">{{ property.address[0].suburb[0]._ }}</p>
+            <p class="modtime">{{ property.['$'].modTime }}</p>
+        </div>
+
         <div class="Property-image" style="background-image: url({{ property.images[0].img[0]['$'].url }})"></div>
 
 		<div class="Property-details">
