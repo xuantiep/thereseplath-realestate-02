@@ -46,8 +46,9 @@ var options = {
     },
 
     css : {
-        files       : 'public/stylesheets/*.css',
-        file        : 'public/stylesheets/application.css'
+        files       : 'public/styles/*.css',
+        file        : 'public/styles/application.css',
+        destination : 'public/styles'
     },
 
     fonts : {
@@ -69,14 +70,15 @@ var options = {
         // files       : 'src/scripts/*.js',
         files : [
             'node_modules/fontfaceonload/dist/fontfaceonload.js',
-            'src/javascripts/*.js'
+            'src/scripts/*.js'
         ],
-        file        : 'src/javascripts/application.js'
+        file        : 'src/scripts/application.js',
+        destination : 'public/scripts'
     },
 
     sass : {
-        files       : 'src/stylesheets/*.scss',
-        destination : 'public/stylesheets'
+        files       : 'src/styles/*.scss',
+        destination : 'public/styles'
     },
 
     watch : {
@@ -132,13 +134,13 @@ gulp.task( 'images', function() {
 
 gulp.task( 'compile:sass', function() {
     gulp.src( options.sass.files )
-        .pipe( plugins.plumber() )
-        .pipe( plugins.sourcemaps.init() )
-        // .pipe( plugins.sass().on('error', sass.logError))
-        .pipe( plugins.sass( {
-            indentedSyntax: true,
-            // errLogToConsole: true
-        } ) )
+        // .pipe( plugins.plumber() )
+		// .pipe( plugins.sourcemaps.init() )
+		// .pipe( plugins.sass().on('error', sass.logError))
+		.pipe( plugins.sass( {
+			indentedSyntax: true,
+			errLogToConsole: true
+		} ) )
         .pipe( plugins.autoprefixer( {
                 browsers : [ 'last 2 versions' ],
                 cascade  : false
@@ -160,7 +162,7 @@ gulp.task( 'minify:css', function () {
         } ) )
         .pipe( plugins.cssnano( { advanced: false } ) )
         .pipe( plugins.rename( { suffix: '.min' } ) )
-        .pipe( gulp.dest( options.build.destination ) )
+        .pipe( gulp.dest( options.css.destination ) )
         .pipe( plugins.size({title: 'styles'}) )
         .pipe( plugins.connect.reload() );
 });
@@ -171,7 +173,7 @@ gulp.task( 'minify:js', function () {
         .pipe( plugins.concat('application.js') )
         .pipe( plugins.uglify() )
         .pipe( plugins.rename( { suffix: '.min' } ) )
-        .pipe( gulp.dest( options.build.destination ) )
+        .pipe( gulp.dest( options.js.destination ) )
         .pipe( plugins.connect.reload() );
 });
 
