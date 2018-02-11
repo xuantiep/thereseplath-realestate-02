@@ -10512,346 +10512,6 @@
   },
   {
     "$": {
-      "modTime": "2018-02-09-13:10",
-      "status": "current"
-    },
-    "agentID": [
-      "25674"
-    ],
-    "clientID": [
-      "rwcairso"
-    ],
-    "uniqueID": "css18251930",
-    "authority": [
-      {
-        "$": {
-          "value": "exclusive"
-        }
-      }
-    ],
-    "underOffer": [
-      {
-        "$": {
-          "value": "no"
-        }
-      }
-    ],
-    "listingAgent": [
-      {
-        "$": {
-          "id": "1"
-        },
-        "name": [
-          "Therese Plath"
-        ],
-        "agentid": [
-          "444432"
-        ],
-        "telephone": [
-          {
-            "_": "0418 772 995",
-            "$": {
-              "type": "mobile"
-            }
-          }
-        ],
-        "email": [
-          "therese.plath@raywhite.com"
-        ]
-      }
-    ],
-    "price": [
-      {
-        "_": "420000",
-        "$": {
-          "display": "yes"
-        }
-      }
-    ],
-    "priceView": [
-      "$450,000"
-    ],
-    "address": [
-      {
-        "$": {
-          "display": "yes"
-        },
-        "streetNumber": [
-          "13"
-        ],
-        "street": [
-          "Matisia Close"
-        ],
-        "suburb": [
-          {
-            "_": "MOUNT SHERIDAN",
-            "$": {
-              "display": "yes"
-            }
-          }
-        ],
-        "state": [
-          "QLD"
-        ],
-        "postcode": [
-          "4868"
-        ]
-      }
-    ],
-    "category": [
-      {
-        "$": {
-          "name": "House"
-        }
-      }
-    ],
-    "headline": [
-      "An Inviting Private Home with Fabulous Street Appeal"
-    ],
-    "description": [
-      "Look behind the front doors to be amazed at what lies within.  Therese Plath presents this fully air conditioned family home which has everything the growing family desires. Located in popular Forest Gardens in a quiet close so very close to parklands, walking tracks and medical and shopping - this picture postcard appeal is waiting for your inspection.\nThe house chef is treated to the central kitchen with gas cooktop, electric oven, dishwasher and corner pantry to serve guests inside and easy access to the outdoor entertaining.\n\nThe generous master bedroom offers an en-suite and walk-in-robe with the other three double bedrooms having built-in cupboards.\n\nThe main family bathroom has single vanity, plunge bath and shower.\n\nEnjoy summer days on the delightful outdoor undercover patio which overlooks the safe fenced back yard and resort swimming pool where there is ample space for swings and pets to enjoy.\n\nOther features include, internal laundry, double car accommodation with automatic doors, security screens and ceiling fans.\n\nThis beautiful, immaculately presented home has easy care landscaped tropical gardens on 721m2 and is sure to impress you.\n\nCall Therese Plath today on 0418 772995 for your inspection today!"
-    ],
-    "features": [
-      {
-        "bedrooms": [
-          "4"
-        ],
-        "bathrooms": [
-          "2"
-        ],
-        "garages": [
-          "2"
-        ],
-        "carports": [
-          "0"
-        ],
-        "airConditioning": [
-          "1"
-        ],
-        "pool": [
-          "1"
-        ],
-        "alarmSystem": [
-          "0"
-        ],
-        "otherFeatures": [
-          "Built-In Wardrobes,Close to Schools,Close to Shops,Close to Transport,Garden"
-        ]
-      }
-    ],
-    "landDetails": [
-      {
-        "area": [
-          {
-            "_": "721",
-            "$": {
-              "unit": "squareMeter"
-            }
-          }
-        ]
-      }
-    ],
-    "inspectionTimes": [
-      {
-        "inspection": [
-          "11-Feb-2018 02:15PM to 02:45PM"
-        ]
-      }
-    ],
-    "images": [
-      {
-        "img": [
-          {
-            "$": {
-              "id": "m",
-              "modTime": "2017-12-13-10:33",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/27665-14.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "a",
-              "modTime": "2017-12-13-10:33",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/24043-01.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "b",
-              "modTime": "2017-12-13-10:33",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/9223-12.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "c",
-              "modTime": "2017-12-13-10:33",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/26528-02.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "d",
-              "modTime": "2017-12-13-10:33",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/19370-13.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "e",
-              "modTime": "2017-12-13-10:33",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/16275-03.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "f",
-              "modTime": "2017-12-13-10:33",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/26572-04.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "g",
-              "modTime": "2017-12-13-10:33",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/26595-05.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "h",
-              "modTime": "2017-12-13-10:33",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/19242-06.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "i",
-              "modTime": "2017-12-13-10:33",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/27551-07.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "j",
-              "modTime": "2017-12-13-10:33",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/27576-08.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "k",
-              "modTime": "2017-12-13-10:33",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/27616-11.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "l",
-              "modTime": "2017-12-13-10:33",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/23634-09.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "n",
-              "modTime": "2017-12-13-10:33",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/10775-10.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "o"
-            }
-          },
-          {
-            "$": {
-              "id": "p"
-            }
-          },
-          {
-            "$": {
-              "id": "q"
-            }
-          },
-          {
-            "$": {
-              "id": "r"
-            }
-          },
-          {
-            "$": {
-              "id": "s"
-            }
-          },
-          {
-            "$": {
-              "id": "t"
-            }
-          },
-          {
-            "$": {
-              "id": "u"
-            }
-          },
-          {
-            "$": {
-              "id": "v"
-            }
-          },
-          {
-            "$": {
-              "id": "w"
-            }
-          },
-          {
-            "$": {
-              "id": "x"
-            }
-          },
-          {
-            "$": {
-              "id": "y"
-            }
-          },
-          {
-            "$": {
-              "id": "z"
-            }
-          }
-        ]
-      }
-    ],
-    "objects": [
-      {
-        "floorplan": [
-          {
-            "$": {
-              "id": "1"
-            }
-          }
-        ]
-      }
-    ],
-    "FeatureProperty": [
-      "0"
-    ],
-    "Geocode": [
-      {
-        "GoogleKey": [
-          ""
-        ],
-        "Latitude": [
-          "-16.9748665"
-        ],
-        "Longitude": [
-          "145.7409544"
-        ]
-      }
-    ]
-  },
-  {
-    "$": {
       "modTime": "2018-02-09-15:01",
       "status": "current"
     },
@@ -11524,1020 +11184,6 @@
         ],
         "Longitude": [
           "145.725076"
-        ]
-      }
-    ]
-  },
-  {
-    "$": {
-      "modTime": "2018-02-11-01:24",
-      "status": "current"
-    },
-    "agentID": [
-      "25674"
-    ],
-    "clientID": [
-      "rwcairso"
-    ],
-    "uniqueID": "1419199",
-    "authority": [
-      {
-        "$": {
-          "value": "exclusive"
-        }
-      }
-    ],
-    "underOffer": [
-      {
-        "$": {
-          "value": "no"
-        }
-      }
-    ],
-    "listingAgent": [
-      {
-        "$": {
-          "id": "1"
-        },
-        "name": [
-          "Therese Plath"
-        ],
-        "agentid": [
-          "444432"
-        ],
-        "telephone": [
-          {
-            "_": "0418 772 995",
-            "$": {
-              "type": "mobile"
-            }
-          }
-        ],
-        "email": [
-          "therese.plath@raywhite.com"
-        ]
-      }
-    ],
-    "price": [
-      {
-        "_": "380000",
-        "$": {
-          "display": "yes"
-        }
-      }
-    ],
-    "priceView": [
-      "$399,000"
-    ],
-    "address": [
-      {
-        "$": {
-          "display": "yes"
-        },
-        "streetNumber": [
-          "33"
-        ],
-        "street": [
-          "Fitzmaurice Drive"
-        ],
-        "suburb": [
-          {
-            "_": "BENTLEY PARK",
-            "$": {
-              "display": "yes"
-            }
-          }
-        ],
-        "state": [
-          "QLD"
-        ],
-        "postcode": [
-          "4869"
-        ]
-      }
-    ],
-    "category": [
-      {
-        "$": {
-          "name": "House"
-        }
-      }
-    ],
-    "headline": [
-      "Modern Living on 743m2 with Side Access for Shed or Swimming Pool"
-    ],
-    "description": [
-      "Therese Plath presents this brilliant lifestyle home . Upon inspection you will see more than meets the eye. This immaculate and beautiful presented family home is located in one of Cairn's premier suburbs of Silkwood Ridge, just 20 minutes from Cairns City Centre and just 2 minutes from the popular Isabella School, Hambledon Primary School, Sugarworld Shopping Centre, Sugarworld and PCYC gymnasium and sporting arena.\n\nThis contemporary, open plan and light filled home has a wonderful feeling.\n\nThe generous stylish kitchen includes large corner pantry, electric oven and cooktop, dishwasher and ample preparation areas.  The family and dining all overlook the tiled undercover entertaining patio which allows a seamless flow of activities from indoors to outdoors.\n\nThe bonus is the separate large theatre room, just perfect for a Sunday afternoon at the movies.\n\nThe home features quality floating bamboo flooring and tiled bedrooms and air conditioned throughout.  \n\nOther features include fans and down lights throughout, internal laundry and double remote garage.\n\nThe private fenced rear yard has plenty of room for a pool and still extra grassed lawns for children to play in the fenced area. Stunning and relaxing views to the picturesque mountains and complete with low maintenance established gardens for your comfort.\n\nAn ideal lifestyle choice for those seeking low maintenance living in a prime position just 20 minutes to the Cairns City and Esplanade and with a number of parks and walking tracks.\n\nMake the most of this beautiful home - If you value difference, quality and an easy lifestyle - $399,000 - you must inspect this property today! Call Therese Plath on 0418 772 995 or email therese.plath@raywhite.com"
-    ],
-    "features": [
-      {
-        "bedrooms": [
-          "4"
-        ],
-        "bathrooms": [
-          "2"
-        ],
-        "garages": [
-          "2"
-        ],
-        "carports": [
-          "0"
-        ],
-        "airConditioning": [
-          "1"
-        ],
-        "pool": [
-          "0"
-        ],
-        "alarmSystem": [
-          "0"
-        ],
-        "otherFeatures": [
-          "Built-In Wardrobes,Close to Schools,Close to Shops,Close to Transport,Garden"
-        ]
-      }
-    ],
-    "landDetails": [
-      {
-        "area": [
-          {
-            "_": "743",
-            "$": {
-              "unit": "squareMeter"
-            }
-          }
-        ]
-      }
-    ],
-    "inspectionTimes": [
-      {
-        "inspection": [
-          "11-Feb-2018 12:00PM to 12:30PM"
-        ]
-      }
-    ],
-    "images": [
-      {
-        "img": [
-          {
-            "$": {
-              "id": "m",
-              "modTime": "2017-09-25-09:03",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/6616-01.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "a",
-              "modTime": "2017-09-25-09:03",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/26259-02.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "b",
-              "modTime": "2017-09-25-09:03",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/106718386-image-D.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "c",
-              "modTime": "2017-09-25-09:03",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/23824-05.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "d",
-              "modTime": "2017-09-25-09:03",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/7985-06.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "e",
-              "modTime": "2017-09-25-09:03",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/5462-07.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "f",
-              "modTime": "2017-09-25-09:03",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/23782-04.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "g",
-              "modTime": "2017-09-25-09:03",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/28150-08.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "h",
-              "modTime": "2017-09-25-09:03",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/20022-09.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "i",
-              "modTime": "2017-09-25-09:03",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/20047-10.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "j",
-              "modTime": "2017-09-25-09:03",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/28184-11.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "k",
-              "modTime": "2017-09-25-09:03",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/20109-14.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "l",
-              "modTime": "2017-09-25-09:03",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/5539-12.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "n",
-              "modTime": "2017-09-25-09:03",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/8085-13.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "o",
-              "modTime": "2017-09-25-09:03",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/28089-03.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "p",
-              "modTime": "2017-09-25-09:03",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/106718386-image-N.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "q"
-            }
-          },
-          {
-            "$": {
-              "id": "r"
-            }
-          },
-          {
-            "$": {
-              "id": "s"
-            }
-          },
-          {
-            "$": {
-              "id": "t"
-            }
-          },
-          {
-            "$": {
-              "id": "u"
-            }
-          },
-          {
-            "$": {
-              "id": "v"
-            }
-          },
-          {
-            "$": {
-              "id": "w"
-            }
-          },
-          {
-            "$": {
-              "id": "x"
-            }
-          },
-          {
-            "$": {
-              "id": "y"
-            }
-          },
-          {
-            "$": {
-              "id": "z"
-            }
-          }
-        ]
-      }
-    ],
-    "objects": [
-      {
-        "floorplan": [
-          {
-            "$": {
-              "id": "1"
-            }
-          }
-        ]
-      }
-    ],
-    "FeatureProperty": [
-      "0"
-    ],
-    "Geocode": [
-      {
-        "GoogleKey": [
-          ""
-        ],
-        "Latitude": [
-          "-17.0161348"
-        ],
-        "Longitude": [
-          "145.7164729"
-        ]
-      }
-    ]
-  },
-  {
-    "$": {
-      "modTime": "2018-02-11-01:24",
-      "status": "current"
-    },
-    "agentID": [
-      "25674"
-    ],
-    "clientID": [
-      "rwcairso"
-    ],
-    "uniqueID": "css16807101",
-    "authority": [
-      {
-        "$": {
-          "value": "exclusive"
-        }
-      }
-    ],
-    "underOffer": [
-      {
-        "$": {
-          "value": "no"
-        }
-      }
-    ],
-    "listingAgent": [
-      {
-        "$": {
-          "id": "1"
-        },
-        "name": [
-          "Therese Plath"
-        ],
-        "agentid": [
-          "444432"
-        ],
-        "telephone": [
-          {
-            "_": "0418 772 995",
-            "$": {
-              "type": "mobile"
-            }
-          }
-        ],
-        "email": [
-          "therese.plath@raywhite.com"
-        ]
-      }
-    ],
-    "price": [
-      {
-        "_": "300000",
-        "$": {
-          "display": "yes"
-        }
-      }
-    ],
-    "priceView": [
-      "Considering Offers Under $320,000"
-    ],
-    "address": [
-      {
-        "$": {
-          "display": "yes"
-        },
-        "streetNumber": [
-          "21"
-        ],
-        "street": [
-          "Ravizza Drive"
-        ],
-        "suburb": [
-          {
-            "_": "EDMONTON",
-            "$": {
-              "display": "yes"
-            }
-          }
-        ],
-        "state": [
-          "QLD"
-        ],
-        "postcode": [
-          "4869"
-        ]
-      }
-    ],
-    "category": [
-      {
-        "$": {
-          "name": "House"
-        }
-      }
-    ],
-    "headline": [
-      "Exciting Value on Large Corner Block"
-    ],
-    "description": [
-      "Therese Plath is delighted to present this marvelous property for sale where living is easy for the whole\nfamily in a convenient location in Edmonton; only minutes to shopping, schools and sporting facilities\nand just 15 minutes to Cairns City Centre.\n\nOffering an abundance of preparation and serving space the kitchen is the hub of the home with a\nmodern electric stove with ceramic cook top and ample room for your double fridge. Flowing from the\nkitchen is the open plan air conditioned living and dining area.\n\nThis is the perfect house for entertaining with a fabulous enclosed outdoor area, where there is plenty\nof space to entertain family and friends and provides easy access to the relaxing outdoor spa.\n\nThere are three spacious air conditioned bedrooms all with built in robes.\n\nThe bathroom has a shower over bath and separate toilet and vanity rooms.\n\nThere is also ample storage with a double powered garage with large work area, overhead storage and\nan additional garden shed.\n\nThe garage has remote roller doors and numerous power points, lights and fans.\n\nThere is loads of room on the driveway allowing off street parking for your guests.\n\nLow maintenance gardens ensure your weekends are free for relaxing and enjoying this new lifestyle.\n\nImmaculate, beautifully presented and super convenient to all shopping and activities, this distinctive\nproperty is an investment for your family. Call Therese Plath on 0418 772 995 for your inspection today therese.plath@raywhite.com"
-    ],
-    "features": [
-      {
-        "bedrooms": [
-          "3"
-        ],
-        "bathrooms": [
-          "1"
-        ],
-        "garages": [
-          "2"
-        ],
-        "carports": [
-          "0"
-        ],
-        "airConditioning": [
-          "1"
-        ],
-        "pool": [
-          "0"
-        ],
-        "alarmSystem": [
-          "0"
-        ],
-        "otherFeatures": [
-          "Close to Schools,Close to Shops,Close to Transport,Garden,Secure Parking"
-        ]
-      }
-    ],
-    "landDetails": [
-      {
-        "area": [
-          {
-            "_": "794",
-            "$": {
-              "unit": "squareMeter"
-            }
-          }
-        ]
-      }
-    ],
-    "inspectionTimes": [
-      {
-        "inspection": [
-          "11-Feb-2018 01:30PM to 02:00PM"
-        ]
-      }
-    ],
-    "images": [
-      {
-        "img": [
-          {
-            "$": {
-              "id": "m",
-              "modTime": "2018-02-05-06:56",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/10456-05.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "a",
-              "modTime": "2018-02-05-06:56",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/12513-03.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "b",
-              "modTime": "2018-02-05-06:56",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/12756-12.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "c",
-              "modTime": "2018-02-05-06:56",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/7512-04.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "d",
-              "modTime": "2018-02-05-06:56",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/23170-01.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "e",
-              "modTime": "2018-02-05-06:56",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/7127-02.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "f",
-              "modTime": "2018-02-05-06:56",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/7557-06.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "g",
-              "modTime": "2018-02-05-06:56",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/7585-07.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "h",
-              "modTime": "2018-02-05-06:56",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/12668-08.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "i",
-              "modTime": "2018-02-05-06:56",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/29950-09.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "j",
-              "modTime": "2018-02-05-06:56",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/10639-10.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "k",
-              "modTime": "2018-02-05-06:56",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/30103-11.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "l"
-            }
-          },
-          {
-            "$": {
-              "id": "n"
-            }
-          },
-          {
-            "$": {
-              "id": "o"
-            }
-          },
-          {
-            "$": {
-              "id": "p"
-            }
-          },
-          {
-            "$": {
-              "id": "q"
-            }
-          },
-          {
-            "$": {
-              "id": "r"
-            }
-          },
-          {
-            "$": {
-              "id": "s"
-            }
-          },
-          {
-            "$": {
-              "id": "t"
-            }
-          },
-          {
-            "$": {
-              "id": "u"
-            }
-          },
-          {
-            "$": {
-              "id": "v"
-            }
-          },
-          {
-            "$": {
-              "id": "w"
-            }
-          },
-          {
-            "$": {
-              "id": "x"
-            }
-          },
-          {
-            "$": {
-              "id": "y"
-            }
-          },
-          {
-            "$": {
-              "id": "z"
-            }
-          }
-        ]
-      }
-    ],
-    "objects": [
-      {
-        "floorplan": [
-          {
-            "$": {
-              "id": "1"
-            }
-          }
-        ]
-      }
-    ],
-    "FeatureProperty": [
-      "0"
-    ],
-    "Geocode": [
-      {
-        "GoogleKey": [
-          ""
-        ],
-        "Latitude": [
-          "-17.0159736"
-        ],
-        "Longitude": [
-          "145.7417828"
-        ]
-      }
-    ]
-  },
-  {
-    "$": {
-      "modTime": "2018-02-11-01:24",
-      "status": "current"
-    },
-    "agentID": [
-      "25674"
-    ],
-    "clientID": [
-      "rwcairso"
-    ],
-    "uniqueID": "css18071791",
-    "authority": [
-      {
-        "$": {
-          "value": "exclusive"
-        }
-      }
-    ],
-    "underOffer": [
-      {
-        "$": {
-          "value": "no"
-        }
-      }
-    ],
-    "listingAgent": [
-      {
-        "$": {
-          "id": "1"
-        },
-        "name": [
-          "Therese Plath"
-        ],
-        "agentid": [
-          "444432"
-        ],
-        "telephone": [
-          {
-            "_": "0418 772 995",
-            "$": {
-              "type": "mobile"
-            }
-          }
-        ],
-        "email": [
-          "therese.plath@raywhite.com"
-        ]
-      }
-    ],
-    "price": [
-      {
-        "_": "300000",
-        "$": {
-          "display": "yes"
-        }
-      }
-    ],
-    "priceView": [
-      "Low $300's Range"
-    ],
-    "address": [
-      {
-        "$": {
-          "display": "yes"
-        },
-        "streetNumber": [
-          "3"
-        ],
-        "street": [
-          "Peate Close"
-        ],
-        "suburb": [
-          {
-            "_": "EDMONTON",
-            "$": {
-              "display": "yes"
-            }
-          }
-        ],
-        "state": [
-          "QLD"
-        ],
-        "postcode": [
-          "4869"
-        ]
-      }
-    ],
-    "category": [
-      {
-        "$": {
-          "name": "House"
-        }
-      }
-    ],
-    "headline": [
-      "Open Sat & Sun 11:00am to 11:30am - Affordable & Easy Living with Resort Pool on 701m2 in Edmonton"
-    ],
-    "description": [
-      "Therese Plath presents this fabulous three bedroom, one bathroom home representing fantastic value in a quiet close in Edmonton, Cairns yet only 20 minutes from Cairns City and famous Esplanade.\n\nHere's an immaculate, comfortable three bedroom home which offers position, potential and possibilities! \n\nFor families, there's the comfort of an established home, enhanced by low maintenance gardens with established trees to rear.  \n\nThe central kitchen is a joy for any busy cook with its open plan style.  The streamlined, low maintenance work centre offers banks of cupboards, generous bench space with separate dining and lounge areas overlooking the patio, resort pool and large safe fenced back yard.  Enjoy summer in air-conditioning with large split system to living which will cool the entire home.\n\nFor investors, there is significant potential. While this home occupies a prime 701sqm block, is so close to all amenities, school and sporting fields and parklands.  Edmonton continues to attract residents as it is an easy 20 minutes to Cairns City Centre.\n\nMove in & enjoy the lifestyle this property has to offer with not a thing to do. Call Therese Plath on 0418 772995 for your inspection today or email us therese.plath@raywhite.com"
-    ],
-    "features": [
-      {
-        "bedrooms": [
-          "3"
-        ],
-        "bathrooms": [
-          "1"
-        ],
-        "garages": [
-          "1"
-        ],
-        "carports": [
-          "1"
-        ],
-        "airConditioning": [
-          "1"
-        ],
-        "pool": [
-          "1"
-        ],
-        "alarmSystem": [
-          "0"
-        ],
-        "otherFeatures": [
-          "Close to Schools,Close to Shops,Close to Transport,Garden"
-        ]
-      }
-    ],
-    "landDetails": [
-      {
-        "area": [
-          {
-            "_": "701",
-            "$": {
-              "unit": "squareMeter"
-            }
-          }
-        ]
-      }
-    ],
-    "inspectionTimes": [
-      {
-        "inspection": [
-          "11-Feb-2018 11:00AM to 11:30AM"
-        ]
-      }
-    ],
-    "images": [
-      {
-        "img": [
-          {
-            "$": {
-              "id": "m",
-              "modTime": "2018-02-05-12:10",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/15886-04.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "a",
-              "modTime": "2018-02-05-12:10",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/31086-03.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "b",
-              "modTime": "2018-02-05-12:10",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/27195-01.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "c",
-              "modTime": "2018-02-05-12:10",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/23638-05.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "d",
-              "modTime": "2018-02-05-12:10",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/23610-02.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "e",
-              "modTime": "2018-02-05-12:10",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/26172-06.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "f",
-              "modTime": "2018-02-05-12:10",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/27233-07.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "g",
-              "modTime": "2018-02-05-12:10",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/15652-08.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "h",
-              "modTime": "2018-02-05-12:10",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/9701-11.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "i",
-              "modTime": "2018-02-05-12:10",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/15923-09.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "j",
-              "modTime": "2018-02-05-12:10",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/11919-10.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "k"
-            }
-          },
-          {
-            "$": {
-              "id": "l"
-            }
-          },
-          {
-            "$": {
-              "id": "n"
-            }
-          },
-          {
-            "$": {
-              "id": "o"
-            }
-          },
-          {
-            "$": {
-              "id": "p"
-            }
-          },
-          {
-            "$": {
-              "id": "q"
-            }
-          },
-          {
-            "$": {
-              "id": "r"
-            }
-          },
-          {
-            "$": {
-              "id": "s"
-            }
-          },
-          {
-            "$": {
-              "id": "t"
-            }
-          },
-          {
-            "$": {
-              "id": "u"
-            }
-          },
-          {
-            "$": {
-              "id": "v"
-            }
-          },
-          {
-            "$": {
-              "id": "w"
-            }
-          },
-          {
-            "$": {
-              "id": "x"
-            }
-          },
-          {
-            "$": {
-              "id": "y"
-            }
-          },
-          {
-            "$": {
-              "id": "z"
-            }
-          }
-        ]
-      }
-    ],
-    "objects": [
-      {
-        "floorplan": [
-          {
-            "$": {
-              "id": "1"
-            }
-          }
-        ]
-      }
-    ],
-    "FeatureProperty": [
-      "0"
-    ],
-    "Geocode": [
-      {
-        "GoogleKey": [
-          ""
-        ],
-        "Latitude": [
-          "-17.0315182"
-        ],
-        "Longitude": [
-          "145.7385997"
         ]
       }
     ]
@@ -13554,344 +12200,6 @@
   },
   {
     "$": {
-      "modTime": "2018-02-11-01:24",
-      "status": "current"
-    },
-    "agentID": [
-      "25674"
-    ],
-    "clientID": [
-      "rwcairso"
-    ],
-    "uniqueID": "css18380285",
-    "authority": [
-      {
-        "$": {
-          "value": "exclusive"
-        }
-      }
-    ],
-    "underOffer": [
-      {
-        "$": {
-          "value": "no"
-        }
-      }
-    ],
-    "listingAgent": [
-      {
-        "$": {
-          "id": "1"
-        },
-        "name": [
-          "Therese Plath"
-        ],
-        "agentid": [
-          "444432"
-        ],
-        "telephone": [
-          {
-            "_": "0418 772 995",
-            "$": {
-              "type": "mobile"
-            }
-          }
-        ],
-        "email": [
-          "therese.plath@raywhite.com"
-        ]
-      }
-    ],
-    "price": [
-      {
-        "_": "399000",
-        "$": {
-          "display": "yes"
-        }
-      }
-    ],
-    "priceView": [
-      "Offers Over $399,000"
-    ],
-    "address": [
-      {
-        "$": {
-          "display": "yes"
-        },
-        "streetNumber": [
-          "42"
-        ],
-        "street": [
-          "Novelli Street"
-        ],
-        "suburb": [
-          {
-            "_": "EDMONTON",
-            "$": {
-              "display": "yes"
-            }
-          }
-        ],
-        "state": [
-          "QLD"
-        ],
-        "postcode": [
-          "4869"
-        ]
-      }
-    ],
-    "category": [
-      {
-        "$": {
-          "name": "House"
-        }
-      }
-    ],
-    "headline": [
-      "Appealing Family Home - An Entertainers Retreat!"
-    ],
-    "description": [
-      "Perfectly positioned in a popular location in Edmonton and only 5 minutes to every convenience including the Sugar World Water Park, Coles Shopping Centre and choice of schools and medical facilities. Cairns City is just a short 20 minute drive away if you wish to enjoy the pleasures of the favourite Cairns Esplanade Area and its many restaurants.\n\nFrom the moment you walk through the front entry of this immaculately presented home, you will be instantly impressed.\n \nThis residence has been carefully planned with the family in mind and space at the highest of priorities. It's well thought out design caters to young families, families with teenagers, AirBnB or homestay students.\n\nMultiple living and entertaining areas seamlessly merge together before integrating with an equally spacious outdoor area - just perfect for entertaining all year round. \n\nThis well- maintained family home consists of four large carpeted bedrooms and 2 bathrooms. The Master suite offers an en-suite bathroom, spacious walk in wardrobe and air conditioning to the main plus office area. The other 3 bedrooms all have built-in robes.\n\nThe well-appointed kitchen is complete with brand new dishwasher, pantry, gas cooktop, electric oven with ample cupboard space and is positioned in the heart of the home adjacent to the air conditioned dining area and living / family room.\n\nThis beautiful home offers well established gardens, with plenty of room for children and pets to play safely in the large private fenced yard complete with garden shed.\n\nTo complete the home, it is security screened throughout and has double remote garage with laundry.\n\nAn inspection will please buyers with offers over $399,000 - Call Therese on 0418 772 995."
-    ],
-    "features": [
-      {
-        "bedrooms": [
-          "4"
-        ],
-        "bathrooms": [
-          "2"
-        ],
-        "garages": [
-          "2"
-        ],
-        "carports": [
-          "0"
-        ],
-        "airConditioning": [
-          "1"
-        ],
-        "pool": [
-          "0"
-        ],
-        "alarmSystem": [
-          "0"
-        ],
-        "otherFeatures": [
-          "Built-In Wardrobes,Close to Schools,Close to Shops,Close to Transport,Garden"
-        ]
-      }
-    ],
-    "landDetails": [
-      {
-        "area": [
-          {
-            "_": "601",
-            "$": {
-              "unit": "squareMeter"
-            }
-          }
-        ]
-      }
-    ],
-    "inspectionTimes": [
-      {
-        "inspection": [
-          "11-Feb-2018 12:45PM to 01:15PM"
-        ]
-      }
-    ],
-    "images": [
-      {
-        "img": [
-          {
-            "$": {
-              "id": "m",
-              "modTime": "2017-12-21-16:12",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/32388-01.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "a",
-              "modTime": "2017-12-21-16:12",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/23581-02.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "b",
-              "modTime": "2017-12-21-16:12",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/24471-04.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "c",
-              "modTime": "2017-12-21-16:12",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/10687-03.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "d",
-              "modTime": "2017-12-21-16:12",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/17899-05.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "e",
-              "modTime": "2017-12-21-16:12",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/21095-06.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "f",
-              "modTime": "2017-12-21-16:12",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/29592-07.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "g",
-              "modTime": "2017-12-21-16:12",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/10743-08.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "h",
-              "modTime": "2017-12-21-16:12",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/23688-11.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "i",
-              "modTime": "2017-12-21-16:12",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/9278-09.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "j",
-              "modTime": "2017-12-21-16:12",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/17930-10.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "k",
-              "modTime": "2017-12-21-16:12",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/28102-12.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "l",
-              "modTime": "2017-12-21-16:12",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/32515-13.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "n"
-            }
-          },
-          {
-            "$": {
-              "id": "o"
-            }
-          },
-          {
-            "$": {
-              "id": "p"
-            }
-          },
-          {
-            "$": {
-              "id": "q"
-            }
-          },
-          {
-            "$": {
-              "id": "r"
-            }
-          },
-          {
-            "$": {
-              "id": "s"
-            }
-          },
-          {
-            "$": {
-              "id": "t"
-            }
-          },
-          {
-            "$": {
-              "id": "u"
-            }
-          },
-          {
-            "$": {
-              "id": "v"
-            }
-          },
-          {
-            "$": {
-              "id": "w"
-            }
-          },
-          {
-            "$": {
-              "id": "x"
-            }
-          },
-          {
-            "$": {
-              "id": "y"
-            }
-          },
-          {
-            "$": {
-              "id": "z"
-            }
-          }
-        ]
-      }
-    ],
-    "objects": [
-      {
-        "floorplan": [
-          {
-            "$": {
-              "id": "1"
-            }
-          }
-        ]
-      }
-    ],
-    "FeatureProperty": [
-      "0"
-    ],
-    "Geocode": [
-      {
-        "GoogleKey": [
-          ""
-        ],
-        "Latitude": [
-          "-17.0166986"
-        ],
-        "Longitude": [
-          "145.7217287"
-        ]
-      }
-    ]
-  },
-  {
-    "$": {
       "modTime": "2018-02-11-01:25",
       "status": "current"
     },
@@ -14228,6 +12536,1678 @@
         ],
         "Longitude": [
           "145.7669657"
+        ]
+      }
+    ]
+  },
+  {
+    "$": {
+      "modTime": "2018-02-12-01:21",
+      "status": "current"
+    },
+    "agentID": [
+      "25674"
+    ],
+    "clientID": [
+      "rwcairso"
+    ],
+    "uniqueID": "1419199",
+    "authority": [
+      {
+        "$": {
+          "value": "exclusive"
+        }
+      }
+    ],
+    "underOffer": [
+      {
+        "$": {
+          "value": "no"
+        }
+      }
+    ],
+    "listingAgent": [
+      {
+        "$": {
+          "id": "1"
+        },
+        "name": [
+          "Therese Plath"
+        ],
+        "agentid": [
+          "444432"
+        ],
+        "telephone": [
+          {
+            "_": "0418 772 995",
+            "$": {
+              "type": "mobile"
+            }
+          }
+        ],
+        "email": [
+          "therese.plath@raywhite.com"
+        ]
+      }
+    ],
+    "price": [
+      {
+        "_": "380000",
+        "$": {
+          "display": "yes"
+        }
+      }
+    ],
+    "priceView": [
+      "$399,000"
+    ],
+    "address": [
+      {
+        "$": {
+          "display": "yes"
+        },
+        "streetNumber": [
+          "33"
+        ],
+        "street": [
+          "Fitzmaurice Drive"
+        ],
+        "suburb": [
+          {
+            "_": "BENTLEY PARK",
+            "$": {
+              "display": "yes"
+            }
+          }
+        ],
+        "state": [
+          "QLD"
+        ],
+        "postcode": [
+          "4869"
+        ]
+      }
+    ],
+    "category": [
+      {
+        "$": {
+          "name": "House"
+        }
+      }
+    ],
+    "headline": [
+      "Modern Living on 743m2 with Side Access for Shed or Swimming Pool"
+    ],
+    "description": [
+      "Therese Plath presents this brilliant lifestyle home . Upon inspection you will see more than meets the eye. This immaculate and beautiful presented family home is located in one of Cairn's premier suburbs of Silkwood Ridge, just 20 minutes from Cairns City Centre and just 2 minutes from the popular Isabella School, Hambledon Primary School, Sugarworld Shopping Centre, Sugarworld and PCYC gymnasium and sporting arena.\n\nThis contemporary, open plan and light filled home has a wonderful feeling.\n\nThe generous stylish kitchen includes large corner pantry, electric oven and cooktop, dishwasher and ample preparation areas.  The family and dining all overlook the tiled undercover entertaining patio which allows a seamless flow of activities from indoors to outdoors.\n\nThe bonus is the separate large theatre room, just perfect for a Sunday afternoon at the movies.\n\nThe home features quality floating bamboo flooring and tiled bedrooms and air conditioned throughout.  \n\nOther features include fans and down lights throughout, internal laundry and double remote garage.\n\nThe private fenced rear yard has plenty of room for a pool and still extra grassed lawns for children to play in the fenced area. Stunning and relaxing views to the picturesque mountains and complete with low maintenance established gardens for your comfort.\n\nAn ideal lifestyle choice for those seeking low maintenance living in a prime position just 20 minutes to the Cairns City and Esplanade and with a number of parks and walking tracks.\n\nMake the most of this beautiful home - If you value difference, quality and an easy lifestyle - $399,000 - you must inspect this property today! Call Therese Plath on 0418 772 995 or email therese.plath@raywhite.com"
+    ],
+    "features": [
+      {
+        "bedrooms": [
+          "4"
+        ],
+        "bathrooms": [
+          "2"
+        ],
+        "garages": [
+          "2"
+        ],
+        "carports": [
+          "0"
+        ],
+        "airConditioning": [
+          "1"
+        ],
+        "pool": [
+          "0"
+        ],
+        "alarmSystem": [
+          "0"
+        ],
+        "otherFeatures": [
+          "Built-In Wardrobes,Close to Schools,Close to Shops,Close to Transport,Garden"
+        ]
+      }
+    ],
+    "landDetails": [
+      {
+        "area": [
+          {
+            "_": "743",
+            "$": {
+              "unit": "squareMeter"
+            }
+          }
+        ]
+      }
+    ],
+    "inspectionTimes": [
+      ""
+    ],
+    "images": [
+      {
+        "img": [
+          {
+            "$": {
+              "id": "m",
+              "modTime": "2017-09-25-09:03",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/6616-01.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "a",
+              "modTime": "2017-09-25-09:03",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/26259-02.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "b",
+              "modTime": "2017-09-25-09:03",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/106718386-image-D.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "c",
+              "modTime": "2017-09-25-09:03",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/23824-05.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "d",
+              "modTime": "2017-09-25-09:03",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/7985-06.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "e",
+              "modTime": "2017-09-25-09:03",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/5462-07.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "f",
+              "modTime": "2017-09-25-09:03",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/23782-04.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "g",
+              "modTime": "2017-09-25-09:03",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/28150-08.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "h",
+              "modTime": "2017-09-25-09:03",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/20022-09.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "i",
+              "modTime": "2017-09-25-09:03",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/20047-10.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "j",
+              "modTime": "2017-09-25-09:03",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/28184-11.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "k",
+              "modTime": "2017-09-25-09:03",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/20109-14.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "l",
+              "modTime": "2017-09-25-09:03",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/5539-12.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "n",
+              "modTime": "2017-09-25-09:03",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/8085-13.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "o",
+              "modTime": "2017-09-25-09:03",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/28089-03.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "p",
+              "modTime": "2017-09-25-09:03",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/106718386-image-N.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "q"
+            }
+          },
+          {
+            "$": {
+              "id": "r"
+            }
+          },
+          {
+            "$": {
+              "id": "s"
+            }
+          },
+          {
+            "$": {
+              "id": "t"
+            }
+          },
+          {
+            "$": {
+              "id": "u"
+            }
+          },
+          {
+            "$": {
+              "id": "v"
+            }
+          },
+          {
+            "$": {
+              "id": "w"
+            }
+          },
+          {
+            "$": {
+              "id": "x"
+            }
+          },
+          {
+            "$": {
+              "id": "y"
+            }
+          },
+          {
+            "$": {
+              "id": "z"
+            }
+          }
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "floorplan": [
+          {
+            "$": {
+              "id": "1"
+            }
+          }
+        ]
+      }
+    ],
+    "FeatureProperty": [
+      "0"
+    ],
+    "Geocode": [
+      {
+        "GoogleKey": [
+          ""
+        ],
+        "Latitude": [
+          "-17.0161348"
+        ],
+        "Longitude": [
+          "145.7164729"
+        ]
+      }
+    ]
+  },
+  {
+    "$": {
+      "modTime": "2018-02-12-01:21",
+      "status": "current"
+    },
+    "agentID": [
+      "25674"
+    ],
+    "clientID": [
+      "rwcairso"
+    ],
+    "uniqueID": "css16807101",
+    "authority": [
+      {
+        "$": {
+          "value": "exclusive"
+        }
+      }
+    ],
+    "underOffer": [
+      {
+        "$": {
+          "value": "no"
+        }
+      }
+    ],
+    "listingAgent": [
+      {
+        "$": {
+          "id": "1"
+        },
+        "name": [
+          "Therese Plath"
+        ],
+        "agentid": [
+          "444432"
+        ],
+        "telephone": [
+          {
+            "_": "0418 772 995",
+            "$": {
+              "type": "mobile"
+            }
+          }
+        ],
+        "email": [
+          "therese.plath@raywhite.com"
+        ]
+      }
+    ],
+    "price": [
+      {
+        "_": "300000",
+        "$": {
+          "display": "yes"
+        }
+      }
+    ],
+    "priceView": [
+      "Considering Offers Under $320,000"
+    ],
+    "address": [
+      {
+        "$": {
+          "display": "yes"
+        },
+        "streetNumber": [
+          "21"
+        ],
+        "street": [
+          "Ravizza Drive"
+        ],
+        "suburb": [
+          {
+            "_": "EDMONTON",
+            "$": {
+              "display": "yes"
+            }
+          }
+        ],
+        "state": [
+          "QLD"
+        ],
+        "postcode": [
+          "4869"
+        ]
+      }
+    ],
+    "category": [
+      {
+        "$": {
+          "name": "House"
+        }
+      }
+    ],
+    "headline": [
+      "Exciting Value on Large Corner Block"
+    ],
+    "description": [
+      "Therese Plath is delighted to present this marvelous property for sale where living is easy for the whole\nfamily in a convenient location in Edmonton; only minutes to shopping, schools and sporting facilities\nand just 15 minutes to Cairns City Centre.\n\nOffering an abundance of preparation and serving space the kitchen is the hub of the home with a\nmodern electric stove with ceramic cook top and ample room for your double fridge. Flowing from the\nkitchen is the open plan air conditioned living and dining area.\n\nThis is the perfect house for entertaining with a fabulous enclosed outdoor area, where there is plenty\nof space to entertain family and friends and provides easy access to the relaxing outdoor spa.\n\nThere are three spacious air conditioned bedrooms all with built in robes.\n\nThe bathroom has a shower over bath and separate toilet and vanity rooms.\n\nThere is also ample storage with a double powered garage with large work area, overhead storage and\nan additional garden shed.\n\nThe garage has remote roller doors and numerous power points, lights and fans.\n\nThere is loads of room on the driveway allowing off street parking for your guests.\n\nLow maintenance gardens ensure your weekends are free for relaxing and enjoying this new lifestyle.\n\nImmaculate, beautifully presented and super convenient to all shopping and activities, this distinctive\nproperty is an investment for your family. Call Therese Plath on 0418 772 995 for your inspection today therese.plath@raywhite.com"
+    ],
+    "features": [
+      {
+        "bedrooms": [
+          "3"
+        ],
+        "bathrooms": [
+          "1"
+        ],
+        "garages": [
+          "2"
+        ],
+        "carports": [
+          "0"
+        ],
+        "airConditioning": [
+          "1"
+        ],
+        "pool": [
+          "0"
+        ],
+        "alarmSystem": [
+          "0"
+        ],
+        "otherFeatures": [
+          "Close to Schools,Close to Shops,Close to Transport,Garden,Secure Parking"
+        ]
+      }
+    ],
+    "landDetails": [
+      {
+        "area": [
+          {
+            "_": "794",
+            "$": {
+              "unit": "squareMeter"
+            }
+          }
+        ]
+      }
+    ],
+    "inspectionTimes": [
+      ""
+    ],
+    "images": [
+      {
+        "img": [
+          {
+            "$": {
+              "id": "m",
+              "modTime": "2018-02-05-06:56",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/10456-05.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "a",
+              "modTime": "2018-02-05-06:56",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/12513-03.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "b",
+              "modTime": "2018-02-05-06:56",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/12756-12.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "c",
+              "modTime": "2018-02-05-06:56",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/7512-04.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "d",
+              "modTime": "2018-02-05-06:56",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/23170-01.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "e",
+              "modTime": "2018-02-05-06:56",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/7127-02.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "f",
+              "modTime": "2018-02-05-06:56",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/7557-06.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "g",
+              "modTime": "2018-02-05-06:56",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/7585-07.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "h",
+              "modTime": "2018-02-05-06:56",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/12668-08.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "i",
+              "modTime": "2018-02-05-06:56",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/29950-09.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "j",
+              "modTime": "2018-02-05-06:56",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/10639-10.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "k",
+              "modTime": "2018-02-05-06:56",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/30103-11.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "l"
+            }
+          },
+          {
+            "$": {
+              "id": "n"
+            }
+          },
+          {
+            "$": {
+              "id": "o"
+            }
+          },
+          {
+            "$": {
+              "id": "p"
+            }
+          },
+          {
+            "$": {
+              "id": "q"
+            }
+          },
+          {
+            "$": {
+              "id": "r"
+            }
+          },
+          {
+            "$": {
+              "id": "s"
+            }
+          },
+          {
+            "$": {
+              "id": "t"
+            }
+          },
+          {
+            "$": {
+              "id": "u"
+            }
+          },
+          {
+            "$": {
+              "id": "v"
+            }
+          },
+          {
+            "$": {
+              "id": "w"
+            }
+          },
+          {
+            "$": {
+              "id": "x"
+            }
+          },
+          {
+            "$": {
+              "id": "y"
+            }
+          },
+          {
+            "$": {
+              "id": "z"
+            }
+          }
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "floorplan": [
+          {
+            "$": {
+              "id": "1"
+            }
+          }
+        ]
+      }
+    ],
+    "FeatureProperty": [
+      "0"
+    ],
+    "Geocode": [
+      {
+        "GoogleKey": [
+          ""
+        ],
+        "Latitude": [
+          "-17.0159736"
+        ],
+        "Longitude": [
+          "145.7417828"
+        ]
+      }
+    ]
+  },
+  {
+    "$": {
+      "modTime": "2018-02-12-01:21",
+      "status": "current"
+    },
+    "agentID": [
+      "25674"
+    ],
+    "clientID": [
+      "rwcairso"
+    ],
+    "uniqueID": "css18071791",
+    "authority": [
+      {
+        "$": {
+          "value": "exclusive"
+        }
+      }
+    ],
+    "underOffer": [
+      {
+        "$": {
+          "value": "no"
+        }
+      }
+    ],
+    "listingAgent": [
+      {
+        "$": {
+          "id": "1"
+        },
+        "name": [
+          "Therese Plath"
+        ],
+        "agentid": [
+          "444432"
+        ],
+        "telephone": [
+          {
+            "_": "0418 772 995",
+            "$": {
+              "type": "mobile"
+            }
+          }
+        ],
+        "email": [
+          "therese.plath@raywhite.com"
+        ]
+      }
+    ],
+    "price": [
+      {
+        "_": "300000",
+        "$": {
+          "display": "yes"
+        }
+      }
+    ],
+    "priceView": [
+      "Low $300's Range"
+    ],
+    "address": [
+      {
+        "$": {
+          "display": "yes"
+        },
+        "streetNumber": [
+          "3"
+        ],
+        "street": [
+          "Peate Close"
+        ],
+        "suburb": [
+          {
+            "_": "EDMONTON",
+            "$": {
+              "display": "yes"
+            }
+          }
+        ],
+        "state": [
+          "QLD"
+        ],
+        "postcode": [
+          "4869"
+        ]
+      }
+    ],
+    "category": [
+      {
+        "$": {
+          "name": "House"
+        }
+      }
+    ],
+    "headline": [
+      "Open Sat & Sun 11:00am to 11:30am - Affordable & Easy Living with Resort Pool on 701m2 in Edmonton"
+    ],
+    "description": [
+      "Therese Plath presents this fabulous three bedroom, one bathroom home representing fantastic value in a quiet close in Edmonton, Cairns yet only 20 minutes from Cairns City and famous Esplanade.\n\nHere's an immaculate, comfortable three bedroom home which offers position, potential and possibilities! \n\nFor families, there's the comfort of an established home, enhanced by low maintenance gardens with established trees to rear.  \n\nThe central kitchen is a joy for any busy cook with its open plan style.  The streamlined, low maintenance work centre offers banks of cupboards, generous bench space with separate dining and lounge areas overlooking the patio, resort pool and large safe fenced back yard.  Enjoy summer in air-conditioning with large split system to living which will cool the entire home.\n\nFor investors, there is significant potential. While this home occupies a prime 701sqm block, is so close to all amenities, school and sporting fields and parklands.  Edmonton continues to attract residents as it is an easy 20 minutes to Cairns City Centre.\n\nMove in & enjoy the lifestyle this property has to offer with not a thing to do. Call Therese Plath on 0418 772995 for your inspection today or email us therese.plath@raywhite.com"
+    ],
+    "features": [
+      {
+        "bedrooms": [
+          "3"
+        ],
+        "bathrooms": [
+          "1"
+        ],
+        "garages": [
+          "1"
+        ],
+        "carports": [
+          "1"
+        ],
+        "airConditioning": [
+          "1"
+        ],
+        "pool": [
+          "1"
+        ],
+        "alarmSystem": [
+          "0"
+        ],
+        "otherFeatures": [
+          "Close to Schools,Close to Shops,Close to Transport,Garden"
+        ]
+      }
+    ],
+    "landDetails": [
+      {
+        "area": [
+          {
+            "_": "701",
+            "$": {
+              "unit": "squareMeter"
+            }
+          }
+        ]
+      }
+    ],
+    "inspectionTimes": [
+      ""
+    ],
+    "images": [
+      {
+        "img": [
+          {
+            "$": {
+              "id": "m",
+              "modTime": "2018-02-05-12:10",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/15886-04.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "a",
+              "modTime": "2018-02-05-12:10",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/31086-03.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "b",
+              "modTime": "2018-02-05-12:10",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/27195-01.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "c",
+              "modTime": "2018-02-05-12:10",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/23638-05.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "d",
+              "modTime": "2018-02-05-12:10",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/23610-02.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "e",
+              "modTime": "2018-02-05-12:10",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/26172-06.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "f",
+              "modTime": "2018-02-05-12:10",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/27233-07.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "g",
+              "modTime": "2018-02-05-12:10",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/15652-08.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "h",
+              "modTime": "2018-02-05-12:10",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/9701-11.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "i",
+              "modTime": "2018-02-05-12:10",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/15923-09.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "j",
+              "modTime": "2018-02-05-12:10",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/11919-10.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "k"
+            }
+          },
+          {
+            "$": {
+              "id": "l"
+            }
+          },
+          {
+            "$": {
+              "id": "n"
+            }
+          },
+          {
+            "$": {
+              "id": "o"
+            }
+          },
+          {
+            "$": {
+              "id": "p"
+            }
+          },
+          {
+            "$": {
+              "id": "q"
+            }
+          },
+          {
+            "$": {
+              "id": "r"
+            }
+          },
+          {
+            "$": {
+              "id": "s"
+            }
+          },
+          {
+            "$": {
+              "id": "t"
+            }
+          },
+          {
+            "$": {
+              "id": "u"
+            }
+          },
+          {
+            "$": {
+              "id": "v"
+            }
+          },
+          {
+            "$": {
+              "id": "w"
+            }
+          },
+          {
+            "$": {
+              "id": "x"
+            }
+          },
+          {
+            "$": {
+              "id": "y"
+            }
+          },
+          {
+            "$": {
+              "id": "z"
+            }
+          }
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "floorplan": [
+          {
+            "$": {
+              "id": "1"
+            }
+          }
+        ]
+      }
+    ],
+    "FeatureProperty": [
+      "0"
+    ],
+    "Geocode": [
+      {
+        "GoogleKey": [
+          ""
+        ],
+        "Latitude": [
+          "-17.0315182"
+        ],
+        "Longitude": [
+          "145.7385997"
+        ]
+      }
+    ]
+  },
+  {
+    "$": {
+      "modTime": "2018-02-12-01:24",
+      "status": "current"
+    },
+    "agentID": [
+      "25674"
+    ],
+    "clientID": [
+      "rwcairso"
+    ],
+    "uniqueID": "css18251930",
+    "authority": [
+      {
+        "$": {
+          "value": "exclusive"
+        }
+      }
+    ],
+    "underOffer": [
+      {
+        "$": {
+          "value": "no"
+        }
+      }
+    ],
+    "listingAgent": [
+      {
+        "$": {
+          "id": "1"
+        },
+        "name": [
+          "Therese Plath"
+        ],
+        "agentid": [
+          "444432"
+        ],
+        "telephone": [
+          {
+            "_": "0418 772 995",
+            "$": {
+              "type": "mobile"
+            }
+          }
+        ],
+        "email": [
+          "therese.plath@raywhite.com"
+        ]
+      }
+    ],
+    "price": [
+      {
+        "_": "420000",
+        "$": {
+          "display": "yes"
+        }
+      }
+    ],
+    "priceView": [
+      "$450,000"
+    ],
+    "address": [
+      {
+        "$": {
+          "display": "yes"
+        },
+        "streetNumber": [
+          "13"
+        ],
+        "street": [
+          "Matisia Close"
+        ],
+        "suburb": [
+          {
+            "_": "MOUNT SHERIDAN",
+            "$": {
+              "display": "yes"
+            }
+          }
+        ],
+        "state": [
+          "QLD"
+        ],
+        "postcode": [
+          "4868"
+        ]
+      }
+    ],
+    "category": [
+      {
+        "$": {
+          "name": "House"
+        }
+      }
+    ],
+    "headline": [
+      "An Inviting Private Home with Fabulous Street Appeal"
+    ],
+    "description": [
+      "Look behind the front doors to be amazed at what lies within.  Therese Plath presents this fully air conditioned family home which has everything the growing family desires. Located in popular Forest Gardens in a quiet close so very close to parklands, walking tracks and medical and shopping - this picture postcard appeal is waiting for your inspection.\nThe house chef is treated to the central kitchen with gas cooktop, electric oven, dishwasher and corner pantry to serve guests inside and easy access to the outdoor entertaining.\n\nThe generous master bedroom offers an en-suite and walk-in-robe with the other three double bedrooms having built-in cupboards.\n\nThe main family bathroom has single vanity, plunge bath and shower.\n\nEnjoy summer days on the delightful outdoor undercover patio which overlooks the safe fenced back yard and resort swimming pool where there is ample space for swings and pets to enjoy.\n\nOther features include, internal laundry, double car accommodation with automatic doors, security screens and ceiling fans.\n\nThis beautiful, immaculately presented home has easy care landscaped tropical gardens on 721m2 and is sure to impress you.\n\nCall Therese Plath today on 0418 772995 for your inspection today!"
+    ],
+    "features": [
+      {
+        "bedrooms": [
+          "4"
+        ],
+        "bathrooms": [
+          "2"
+        ],
+        "garages": [
+          "2"
+        ],
+        "carports": [
+          "0"
+        ],
+        "airConditioning": [
+          "1"
+        ],
+        "pool": [
+          "1"
+        ],
+        "alarmSystem": [
+          "0"
+        ],
+        "otherFeatures": [
+          "Built-In Wardrobes,Close to Schools,Close to Shops,Close to Transport,Garden"
+        ]
+      }
+    ],
+    "landDetails": [
+      {
+        "area": [
+          {
+            "_": "721",
+            "$": {
+              "unit": "squareMeter"
+            }
+          }
+        ]
+      }
+    ],
+    "inspectionTimes": [
+      ""
+    ],
+    "images": [
+      {
+        "img": [
+          {
+            "$": {
+              "id": "m",
+              "modTime": "2017-12-13-10:33",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/27665-14.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "a",
+              "modTime": "2017-12-13-10:33",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/24043-01.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "b",
+              "modTime": "2017-12-13-10:33",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/9223-12.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "c",
+              "modTime": "2017-12-13-10:33",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/26528-02.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "d",
+              "modTime": "2017-12-13-10:33",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/19370-13.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "e",
+              "modTime": "2017-12-13-10:33",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/16275-03.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "f",
+              "modTime": "2017-12-13-10:33",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/26572-04.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "g",
+              "modTime": "2017-12-13-10:33",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/26595-05.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "h",
+              "modTime": "2017-12-13-10:33",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/19242-06.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "i",
+              "modTime": "2017-12-13-10:33",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/27551-07.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "j",
+              "modTime": "2017-12-13-10:33",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/27576-08.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "k",
+              "modTime": "2017-12-13-10:33",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/27616-11.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "l",
+              "modTime": "2017-12-13-10:33",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/23634-09.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "n",
+              "modTime": "2017-12-13-10:33",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/10775-10.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "o"
+            }
+          },
+          {
+            "$": {
+              "id": "p"
+            }
+          },
+          {
+            "$": {
+              "id": "q"
+            }
+          },
+          {
+            "$": {
+              "id": "r"
+            }
+          },
+          {
+            "$": {
+              "id": "s"
+            }
+          },
+          {
+            "$": {
+              "id": "t"
+            }
+          },
+          {
+            "$": {
+              "id": "u"
+            }
+          },
+          {
+            "$": {
+              "id": "v"
+            }
+          },
+          {
+            "$": {
+              "id": "w"
+            }
+          },
+          {
+            "$": {
+              "id": "x"
+            }
+          },
+          {
+            "$": {
+              "id": "y"
+            }
+          },
+          {
+            "$": {
+              "id": "z"
+            }
+          }
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "floorplan": [
+          {
+            "$": {
+              "id": "1"
+            }
+          }
+        ]
+      }
+    ],
+    "FeatureProperty": [
+      "0"
+    ],
+    "Geocode": [
+      {
+        "GoogleKey": [
+          ""
+        ],
+        "Latitude": [
+          "-16.9748665"
+        ],
+        "Longitude": [
+          "145.7409544"
+        ]
+      }
+    ]
+  },
+  {
+    "$": {
+      "modTime": "2018-02-12-01:21",
+      "status": "current"
+    },
+    "agentID": [
+      "25674"
+    ],
+    "clientID": [
+      "rwcairso"
+    ],
+    "uniqueID": "css18380285",
+    "authority": [
+      {
+        "$": {
+          "value": "exclusive"
+        }
+      }
+    ],
+    "underOffer": [
+      {
+        "$": {
+          "value": "no"
+        }
+      }
+    ],
+    "listingAgent": [
+      {
+        "$": {
+          "id": "1"
+        },
+        "name": [
+          "Therese Plath"
+        ],
+        "agentid": [
+          "444432"
+        ],
+        "telephone": [
+          {
+            "_": "0418 772 995",
+            "$": {
+              "type": "mobile"
+            }
+          }
+        ],
+        "email": [
+          "therese.plath@raywhite.com"
+        ]
+      }
+    ],
+    "price": [
+      {
+        "_": "399000",
+        "$": {
+          "display": "yes"
+        }
+      }
+    ],
+    "priceView": [
+      "Offers Over $399,000"
+    ],
+    "address": [
+      {
+        "$": {
+          "display": "yes"
+        },
+        "streetNumber": [
+          "42"
+        ],
+        "street": [
+          "Novelli Street"
+        ],
+        "suburb": [
+          {
+            "_": "EDMONTON",
+            "$": {
+              "display": "yes"
+            }
+          }
+        ],
+        "state": [
+          "QLD"
+        ],
+        "postcode": [
+          "4869"
+        ]
+      }
+    ],
+    "category": [
+      {
+        "$": {
+          "name": "House"
+        }
+      }
+    ],
+    "headline": [
+      "Appealing Family Home - An Entertainers Retreat!"
+    ],
+    "description": [
+      "Perfectly positioned in a popular location in Edmonton and only 5 minutes to every convenience including the Sugar World Water Park, Coles Shopping Centre and choice of schools and medical facilities. Cairns City is just a short 20 minute drive away if you wish to enjoy the pleasures of the favourite Cairns Esplanade Area and its many restaurants.\n\nFrom the moment you walk through the front entry of this immaculately presented home, you will be instantly impressed.\n \nThis residence has been carefully planned with the family in mind and space at the highest of priorities. It's well thought out design caters to young families, families with teenagers, AirBnB or homestay students.\n\nMultiple living and entertaining areas seamlessly merge together before integrating with an equally spacious outdoor area - just perfect for entertaining all year round. \n\nThis well- maintained family home consists of four large carpeted bedrooms and 2 bathrooms. The Master suite offers an en-suite bathroom, spacious walk in wardrobe and air conditioning to the main plus office area. The other 3 bedrooms all have built-in robes.\n\nThe well-appointed kitchen is complete with brand new dishwasher, pantry, gas cooktop, electric oven with ample cupboard space and is positioned in the heart of the home adjacent to the air conditioned dining area and living / family room.\n\nThis beautiful home offers well established gardens, with plenty of room for children and pets to play safely in the large private fenced yard complete with garden shed.\n\nTo complete the home, it is security screened throughout and has double remote garage with laundry.\n\nAn inspection will please buyers with offers over $399,000 - Call Therese on 0418 772 995."
+    ],
+    "features": [
+      {
+        "bedrooms": [
+          "4"
+        ],
+        "bathrooms": [
+          "2"
+        ],
+        "garages": [
+          "2"
+        ],
+        "carports": [
+          "0"
+        ],
+        "airConditioning": [
+          "1"
+        ],
+        "pool": [
+          "0"
+        ],
+        "alarmSystem": [
+          "0"
+        ],
+        "otherFeatures": [
+          "Built-In Wardrobes,Close to Schools,Close to Shops,Close to Transport,Garden"
+        ]
+      }
+    ],
+    "landDetails": [
+      {
+        "area": [
+          {
+            "_": "601",
+            "$": {
+              "unit": "squareMeter"
+            }
+          }
+        ]
+      }
+    ],
+    "inspectionTimes": [
+      ""
+    ],
+    "images": [
+      {
+        "img": [
+          {
+            "$": {
+              "id": "m",
+              "modTime": "2017-12-21-16:12",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/32388-01.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "a",
+              "modTime": "2017-12-21-16:12",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/23581-02.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "b",
+              "modTime": "2017-12-21-16:12",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/24471-04.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "c",
+              "modTime": "2017-12-21-16:12",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/10687-03.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "d",
+              "modTime": "2017-12-21-16:12",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/17899-05.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "e",
+              "modTime": "2017-12-21-16:12",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/21095-06.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "f",
+              "modTime": "2017-12-21-16:12",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/29592-07.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "g",
+              "modTime": "2017-12-21-16:12",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/10743-08.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "h",
+              "modTime": "2017-12-21-16:12",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/23688-11.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "i",
+              "modTime": "2017-12-21-16:12",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/9278-09.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "j",
+              "modTime": "2017-12-21-16:12",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/17930-10.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "k",
+              "modTime": "2017-12-21-16:12",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/28102-12.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "l",
+              "modTime": "2017-12-21-16:12",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/32515-13.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "n"
+            }
+          },
+          {
+            "$": {
+              "id": "o"
+            }
+          },
+          {
+            "$": {
+              "id": "p"
+            }
+          },
+          {
+            "$": {
+              "id": "q"
+            }
+          },
+          {
+            "$": {
+              "id": "r"
+            }
+          },
+          {
+            "$": {
+              "id": "s"
+            }
+          },
+          {
+            "$": {
+              "id": "t"
+            }
+          },
+          {
+            "$": {
+              "id": "u"
+            }
+          },
+          {
+            "$": {
+              "id": "v"
+            }
+          },
+          {
+            "$": {
+              "id": "w"
+            }
+          },
+          {
+            "$": {
+              "id": "x"
+            }
+          },
+          {
+            "$": {
+              "id": "y"
+            }
+          },
+          {
+            "$": {
+              "id": "z"
+            }
+          }
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "floorplan": [
+          {
+            "$": {
+              "id": "1"
+            }
+          }
+        ]
+      }
+    ],
+    "FeatureProperty": [
+      "0"
+    ],
+    "Geocode": [
+      {
+        "GoogleKey": [
+          ""
+        ],
+        "Latitude": [
+          "-17.0166986"
+        ],
+        "Longitude": [
+          "145.7217287"
         ]
       }
     ]
