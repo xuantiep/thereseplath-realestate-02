@@ -4309,308 +4309,6 @@
   },
   {
     "$": {
-      "modTime": "2018-05-17-11:58",
-      "status": "current"
-    },
-    "agentID": [
-      "25674"
-    ],
-    "clientID": [
-      "rwcairso"
-    ],
-    "uniqueID": "css17440851",
-    "authority": [
-      {
-        "$": {
-          "value": "exclusive"
-        }
-      }
-    ],
-    "underOffer": [
-      {
-        "$": {
-          "value": "no"
-        }
-      }
-    ],
-    "listingAgent": [
-      {
-        "$": {
-          "id": "1"
-        },
-        "name": [
-          "Therese Plath"
-        ],
-        "agentid": [
-          "444432"
-        ],
-        "telephone": [
-          {
-            "_": "0418 772 995",
-            "$": {
-              "type": "mobile"
-            }
-          }
-        ],
-        "email": [
-          "therese.plath@raywhite.com"
-        ]
-      }
-    ],
-    "price": [
-      {
-        "_": "170000",
-        "$": {
-          "display": "yes"
-        }
-      }
-    ],
-    "priceView": [
-      "$179,000"
-    ],
-    "address": [
-      {
-        "$": {
-          "display": "yes"
-        },
-        "streetNumber": [
-          "18/62"
-        ],
-        "street": [
-          "Abbott Street"
-        ],
-        "suburb": [
-          {
-            "_": "CAIRNS CITY",
-            "$": {
-              "display": "yes"
-            }
-          }
-        ],
-        "state": [
-          "QLD"
-        ],
-        "postcode": [
-          "4870"
-        ]
-      }
-    ],
-    "category": [
-      {
-        "$": {
-          "name": "Apartment"
-        }
-      }
-    ],
-    "headline": [
-      "Mediterranean Style Investment Unit in the Heart of Cairns"
-    ],
-    "description": [
-      "Therese Plath is excited to present this boutique one bedroom apartment in the heart of Cairns City positioned within easy walking distance to popular Esplanade, night markets, lagoon, shopping and all the best restaurants nearby.\n\n\"Il Palazzo\" is a four and half star blue chip boutique building and offers you the perfect investment with fabulous long term on site management. This executive accommodation has lift and is one of 38 in the small complex with 24hr security, first class facilities including resort style swimming pool, bbq area, reception desk with full tour booking facilities and internal courtyard.\n\nThis second floor apartment is fully self-contained with open plan kitchen, dining and lounge area with separate bedroom, bathroom and laundry facilities. Also included with this apartment is off street security car parking which is not available with all the apartments.\n\nThere are excellent on site managers looking after the complex maintaining the highest level of service for tourist accommodation.\n\nThe unit has been priced to sell and any astute buyer will recognize a buying opportunity prior to end of financial year!!  We welcome your enquiry - Call Therese Plath for your very own private inspection today and make sure your next choice is the right choice - 0418 772 995 or therese.plath@raywhite.com"
-    ],
-    "features": [
-      {
-        "bedrooms": [
-          "1"
-        ],
-        "bathrooms": [
-          "1"
-        ],
-        "garages": [
-          "1"
-        ],
-        "carports": [
-          "0"
-        ],
-        "airConditioning": [
-          "1"
-        ],
-        "pool": [
-          "1"
-        ],
-        "alarmSystem": [
-          "0"
-        ],
-        "otherFeatures": [
-          "Built-In Wardrobes,Close to Shops,Close to Transport,Secure Parking,Terrace/Balcony"
-        ]
-      }
-    ],
-    "inspectionTimes": [
-      ""
-    ],
-    "images": [
-      {
-        "img": [
-          {
-            "$": {
-              "id": "m",
-              "modTime": "2017-06-28-09:18",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/21870-IlPalazzo5.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "a",
-              "modTime": "2017-06-28-09:18",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/28669-IlPalazzo1.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "b",
-              "modTime": "2017-06-28-09:18",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/32295-IlPalazzo3.jpg"
-            }
-          },
-          {
-            "$": {
-              "id": "c"
-            }
-          },
-          {
-            "$": {
-              "id": "d"
-            }
-          },
-          {
-            "$": {
-              "id": "e"
-            }
-          },
-          {
-            "$": {
-              "id": "f"
-            }
-          },
-          {
-            "$": {
-              "id": "g"
-            }
-          },
-          {
-            "$": {
-              "id": "h"
-            }
-          },
-          {
-            "$": {
-              "id": "i"
-            }
-          },
-          {
-            "$": {
-              "id": "j"
-            }
-          },
-          {
-            "$": {
-              "id": "k"
-            }
-          },
-          {
-            "$": {
-              "id": "l"
-            }
-          },
-          {
-            "$": {
-              "id": "n"
-            }
-          },
-          {
-            "$": {
-              "id": "o"
-            }
-          },
-          {
-            "$": {
-              "id": "p"
-            }
-          },
-          {
-            "$": {
-              "id": "q"
-            }
-          },
-          {
-            "$": {
-              "id": "r"
-            }
-          },
-          {
-            "$": {
-              "id": "s"
-            }
-          },
-          {
-            "$": {
-              "id": "t"
-            }
-          },
-          {
-            "$": {
-              "id": "u"
-            }
-          },
-          {
-            "$": {
-              "id": "v"
-            }
-          },
-          {
-            "$": {
-              "id": "w"
-            }
-          },
-          {
-            "$": {
-              "id": "x"
-            }
-          },
-          {
-            "$": {
-              "id": "y"
-            }
-          },
-          {
-            "$": {
-              "id": "z"
-            }
-          }
-        ]
-      }
-    ],
-    "objects": [
-      {
-        "floorplan": [
-          {
-            "$": {
-              "id": "1"
-            }
-          }
-        ]
-      }
-    ],
-    "FeatureProperty": [
-      "0"
-    ],
-    "Geocode": [
-      {
-        "GoogleKey": [
-          ""
-        ],
-        "Latitude": [
-          "-16.9201298"
-        ],
-        "Longitude": [
-          "145.7762838"
-        ]
-      }
-    ]
-  },
-  {
-    "$": {
       "modTime": "2018-05-24-08:31",
       "status": "current"
     },
@@ -14262,6 +13960,308 @@
         ],
         "Longitude": [
           "145.7366444"
+        ]
+      }
+    ]
+  },
+  {
+    "$": {
+      "modTime": "2018-06-08-08:30",
+      "status": "current"
+    },
+    "agentID": [
+      "25674"
+    ],
+    "clientID": [
+      "rwcairso"
+    ],
+    "uniqueID": "css17440851",
+    "authority": [
+      {
+        "$": {
+          "value": "exclusive"
+        }
+      }
+    ],
+    "underOffer": [
+      {
+        "$": {
+          "value": "no"
+        }
+      }
+    ],
+    "listingAgent": [
+      {
+        "$": {
+          "id": "1"
+        },
+        "name": [
+          "Therese Plath"
+        ],
+        "agentid": [
+          "444432"
+        ],
+        "telephone": [
+          {
+            "_": "0418 772 995",
+            "$": {
+              "type": "mobile"
+            }
+          }
+        ],
+        "email": [
+          "therese.plath@raywhite.com"
+        ]
+      }
+    ],
+    "price": [
+      {
+        "_": "170000",
+        "$": {
+          "display": "yes"
+        }
+      }
+    ],
+    "priceView": [
+      "$179,000"
+    ],
+    "address": [
+      {
+        "$": {
+          "display": "yes"
+        },
+        "streetNumber": [
+          "18/62"
+        ],
+        "street": [
+          "Abbott Street"
+        ],
+        "suburb": [
+          {
+            "_": "CAIRNS CITY",
+            "$": {
+              "display": "yes"
+            }
+          }
+        ],
+        "state": [
+          "QLD"
+        ],
+        "postcode": [
+          "4870"
+        ]
+      }
+    ],
+    "category": [
+      {
+        "$": {
+          "name": "Apartment"
+        }
+      }
+    ],
+    "headline": [
+      "Mediterranean Style Investment Unit in the Heart of Cairns"
+    ],
+    "description": [
+      "Therese Plath is excited to present this boutique one bedroom apartment in the heart of Cairns City positioned within easy walking distance to popular Esplanade, night markets, lagoon, shopping and all the best restaurants nearby.\n\n\"Il Palazzo\" is a four and half star blue chip boutique building and offers you the perfect investment with fabulous long term on site management. This executive accommodation has lift and is one of 38 in the small complex with 24hr security, first class facilities including resort style swimming pool, bbq area, reception desk with full tour booking facilities and internal courtyard.\n\nThis second floor apartment is fully self-contained with open plan kitchen, dining and lounge area with separate bedroom, bathroom and laundry facilities. Also included with this apartment is off street security car parking which is not available with all the apartments.\n\nThere are excellent on site managers looking after the complex maintaining the highest level of service for tourist accommodation.\n\nThe unit has been priced to sell and any astute buyer will recognize a buying opportunity prior to end of financial year!!  We welcome your enquiry - Call Therese Plath for your very own private inspection today and make sure your next choice is the right choice - 0418 772 995 or therese.plath@raywhite.com"
+    ],
+    "features": [
+      {
+        "bedrooms": [
+          "1"
+        ],
+        "bathrooms": [
+          "1"
+        ],
+        "garages": [
+          "1"
+        ],
+        "carports": [
+          "0"
+        ],
+        "airConditioning": [
+          "1"
+        ],
+        "pool": [
+          "1"
+        ],
+        "alarmSystem": [
+          "0"
+        ],
+        "otherFeatures": [
+          "Built-In Wardrobes,Close to Shops,Close to Transport,Secure Parking,Terrace/Balcony"
+        ]
+      }
+    ],
+    "inspectionTimes": [
+      ""
+    ],
+    "images": [
+      {
+        "img": [
+          {
+            "$": {
+              "id": "m",
+              "modTime": "2017-06-28-09:18",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/21870-IlPalazzo5.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "a",
+              "modTime": "2017-06-28-09:18",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/28669-IlPalazzo1.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "b",
+              "modTime": "2017-06-28-09:18",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/32295-IlPalazzo3.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "c"
+            }
+          },
+          {
+            "$": {
+              "id": "d"
+            }
+          },
+          {
+            "$": {
+              "id": "e"
+            }
+          },
+          {
+            "$": {
+              "id": "f"
+            }
+          },
+          {
+            "$": {
+              "id": "g"
+            }
+          },
+          {
+            "$": {
+              "id": "h"
+            }
+          },
+          {
+            "$": {
+              "id": "i"
+            }
+          },
+          {
+            "$": {
+              "id": "j"
+            }
+          },
+          {
+            "$": {
+              "id": "k"
+            }
+          },
+          {
+            "$": {
+              "id": "l"
+            }
+          },
+          {
+            "$": {
+              "id": "n"
+            }
+          },
+          {
+            "$": {
+              "id": "o"
+            }
+          },
+          {
+            "$": {
+              "id": "p"
+            }
+          },
+          {
+            "$": {
+              "id": "q"
+            }
+          },
+          {
+            "$": {
+              "id": "r"
+            }
+          },
+          {
+            "$": {
+              "id": "s"
+            }
+          },
+          {
+            "$": {
+              "id": "t"
+            }
+          },
+          {
+            "$": {
+              "id": "u"
+            }
+          },
+          {
+            "$": {
+              "id": "v"
+            }
+          },
+          {
+            "$": {
+              "id": "w"
+            }
+          },
+          {
+            "$": {
+              "id": "x"
+            }
+          },
+          {
+            "$": {
+              "id": "y"
+            }
+          },
+          {
+            "$": {
+              "id": "z"
+            }
+          }
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "floorplan": [
+          {
+            "$": {
+              "id": "1"
+            }
+          }
+        ]
+      }
+    ],
+    "FeatureProperty": [
+      "0"
+    ],
+    "Geocode": [
+      {
+        "GoogleKey": [
+          ""
+        ],
+        "Latitude": [
+          "-16.9201298"
+        ],
+        "Longitude": [
+          "145.7762838"
         ]
       }
     ]
