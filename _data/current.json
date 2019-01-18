@@ -12168,5 +12168,315 @@
         ]
       }
     ]
+  },
+  {
+    "$": {
+      "modTime": "2019-01-18-11:06",
+      "status": "current"
+    },
+    "agentID": [
+      "25674"
+    ],
+    "clientID": [
+      "rwcairso"
+    ],
+    "uniqueID": "css19756401",
+    "authority": [
+      {
+        "$": {
+          "value": "exclusive"
+        }
+      }
+    ],
+    "underOffer": [
+      {
+        "$": {
+          "value": "no"
+        }
+      }
+    ],
+    "listingAgent": [
+      {
+        "$": {
+          "id": "1"
+        },
+        "name": [
+          "Therese Plath"
+        ],
+        "agentid": [
+          "444432"
+        ],
+        "telephone": [
+          {
+            "_": "0418 772 995",
+            "$": {
+              "type": "mobile"
+            }
+          }
+        ],
+        "email": [
+          "therese.plath@raywhite.com"
+        ]
+      }
+    ],
+    "price": [
+      {
+        "_": "100000",
+        "$": {
+          "display": "yes"
+        }
+      }
+    ],
+    "priceView": [
+      "$115,000"
+    ],
+    "address": [
+      {
+        "$": {
+          "display": "no"
+        },
+        "streetNumber": [
+          "21/192-196"
+        ],
+        "street": [
+          "Mann Street"
+        ],
+        "suburb": [
+          {
+            "_": "WESTCOURT",
+            "$": {
+              "display": "yes"
+            }
+          }
+        ],
+        "state": [
+          "QLD"
+        ],
+        "postcode": [
+          "4870"
+        ]
+      }
+    ],
+    "category": [
+      {
+        "$": {
+          "name": "Unit"
+        }
+      }
+    ],
+    "headline": [
+      "Investment Opportunity  2 Bed  1 Bath - Affordable Living Or Easy Investing"
+    ],
+    "description": [
+      "Therese Plath presents this perfect starter or investment in a fabulous location within walking distance to the Cairns Direct Factory Outlet, Coles, Coles Shopping Centre and a 7 minutes drive Cairns City Centre and Esplanade.  \n\nWith management on site this ground floor unit consists of an open plan design, convenient kitchen, internal laundry, and 1 car accommodation.\n\nThis unit has two bedrooms and easy access to the main bathroom with shower | toilet and single vanity and laundry facilities.\n\nThe solid complex is always well maintained and presents very well with low care established gardens.\n\nEnjoy summer this summer in the sparkling salt water resort pool, spa, BBQ area and tropical palm gardens.\n\nCurrently rented at $240.00 per week on a periodic lease.\n\nDon't miss out on this great location for a great price of $115,000.  \n\nMake your inspection today with Therese Plath today on 0418 772995 or email therese.plath@raywhite.com"
+    ],
+    "features": [
+      {
+        "bedrooms": [
+          "2"
+        ],
+        "bathrooms": [
+          "1"
+        ],
+        "garages": [
+          "0"
+        ],
+        "carports": [
+          "1"
+        ],
+        "pool": [
+          "1"
+        ],
+        "airConditioning": [
+          "0"
+        ],
+        "alarmSystem": [
+          "0"
+        ],
+        "otherFeatures": [
+          "Close to Schools,Close to Shops,Close to Transport,Garden,Secure Parking"
+        ]
+      }
+    ],
+    "inspectionTimes": [
+      ""
+    ],
+    "images": [
+      {
+        "img": [
+          {
+            "$": {
+              "id": "m",
+              "modTime": "2019-01-18-11:05",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/14456-hires.8218-Photo-1-2351781417-O.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "a",
+              "modTime": "2019-01-18-11:05",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/14528-hires.8319-Photo-3-2351781568-O.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "b",
+              "modTime": "2019-01-18-11:05",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/14659-hires.8561-Photo-8-2351782410-O.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "c",
+              "modTime": "2019-01-18-11:05",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/14725-hires.21694-Photo-12-2351780963-O.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "d",
+              "modTime": "2019-01-18-11:05",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/14804-hires.27639-Photo-6-2351782052-O.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "e",
+              "modTime": "2019-01-18-11:05",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/14876-hires.27795-Photo-10-2351780869-O.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "f",
+              "modTime": "2019-01-18-11:05",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/14944-hires.27921-Photo-11-2351780735-O.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "g"
+            }
+          },
+          {
+            "$": {
+              "id": "h"
+            }
+          },
+          {
+            "$": {
+              "id": "i"
+            }
+          },
+          {
+            "$": {
+              "id": "j"
+            }
+          },
+          {
+            "$": {
+              "id": "k"
+            }
+          },
+          {
+            "$": {
+              "id": "l"
+            }
+          },
+          {
+            "$": {
+              "id": "n"
+            }
+          },
+          {
+            "$": {
+              "id": "o"
+            }
+          },
+          {
+            "$": {
+              "id": "p"
+            }
+          },
+          {
+            "$": {
+              "id": "q"
+            }
+          },
+          {
+            "$": {
+              "id": "r"
+            }
+          },
+          {
+            "$": {
+              "id": "s"
+            }
+          },
+          {
+            "$": {
+              "id": "t"
+            }
+          },
+          {
+            "$": {
+              "id": "u"
+            }
+          },
+          {
+            "$": {
+              "id": "v"
+            }
+          },
+          {
+            "$": {
+              "id": "w"
+            }
+          },
+          {
+            "$": {
+              "id": "x"
+            }
+          },
+          {
+            "$": {
+              "id": "y"
+            }
+          },
+          {
+            "$": {
+              "id": "z"
+            }
+          }
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "floorplan": [
+          {
+            "$": {
+              "id": "1"
+            }
+          }
+        ]
+      }
+    ],
+    "FeatureProperty": [
+      "0"
+    ],
+    "Geocode": [
+      {
+        "GoogleKey": [
+          ""
+        ],
+        "Latitude": [
+          "-16.9326538"
+        ],
+        "Longitude": [
+          "145.748679"
+        ]
+      }
+    ]
   }
 ]
