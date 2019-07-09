@@ -5693,326 +5693,6 @@
   },
   {
     "$": {
-      "modTime": "2019-06-16-03:28",
-      "status": "current"
-    },
-    "agentID": [
-      "25674"
-    ],
-    "clientID": [
-      "rwcairso"
-    ],
-    "uniqueID": "css20734217",
-    "authority": [
-      {
-        "$": {
-          "value": "exclusive"
-        }
-      }
-    ],
-    "underOffer": [
-      {
-        "$": {
-          "value": "no"
-        }
-      }
-    ],
-    "listingAgent": [
-      {
-        "$": {
-          "id": "1"
-        },
-        "name": [
-          "Therese Plath"
-        ],
-        "agentid": [
-          "444432"
-        ],
-        "telephone": [
-          {
-            "_": "0418 772 995",
-            "$": {
-              "type": "mobile"
-            }
-          }
-        ],
-        "email": [
-          "therese.plath@raywhite.com"
-        ]
-      }
-    ],
-    "price": [
-      {
-        "_": "500000",
-        "$": {
-          "display": "yes"
-        }
-      }
-    ],
-    "priceView": [
-      "Low $500's Range"
-    ],
-    "address": [
-      {
-        "$": {
-          "display": "yes"
-        },
-        "streetNumber": [
-          "34"
-        ],
-        "street": [
-          "Canecutter Road"
-        ],
-        "suburb": [
-          {
-            "_": "EDMONTON",
-            "$": {
-              "display": "yes"
-            }
-          }
-        ],
-        "state": [
-          "QLD"
-        ],
-        "postcode": [
-          "4869"
-        ]
-      }
-    ],
-    "category": [
-      {
-        "$": {
-          "name": "House"
-        }
-      }
-    ],
-    "headline": [
-      "Family Favourite with Access to Double Bay Shed & Backing Creek"
-    ],
-    "description": [
-      "Therese Plath is excited to present this very attractive and welcoming family home which will appeal to couples and families alike. Set on a large 935m2 block with attractive established landscaped gardens. \n\nWith local schools and parks nearby, a mountain background and no rear neighbours this home is ready for the savvy buyer to move right in!\n\nThe floor plan is simple and uncomplicated and offers so much more than meets the eye. This spacious family home features a fabulous kitchen to delight every chefs' dream - superbly equipped and offers a first class fit out from its quality appliances combined with the impressive stone bench tops and timber cabinetry.\n\nOther fantastic features include:\n\t\n-\t4 Generous bedrooms (en-suite and walk in robe)\n-\tFully air conditioned and tastefully tiled\n-\tMassive open plan living areas\n-\tExpansive tiled outdoor alfresco entertaining\n-\tWide side access to fenced backyard\n-\tTiled double remote car accommodation\n-\tSwimming pool - a magnet for summer celebrations\n-\tEasy access to powered double bay shed with mezzanine flooring\n\nDon't miss out on this outstanding value for money opportunity on the sparkling picture of perfection and convenient lifestyle! This exceptional opportunity awaits - Asking low $500's range - do come and see for yourself and make your inspection today with Therese Plath on 0418 772995 or email therese.plath@raywhite.com"
-    ],
-    "features": [
-      {
-        "bedrooms": [
-          "4"
-        ],
-        "bathrooms": [
-          "2"
-        ],
-        "garages": [
-          "4"
-        ],
-        "carports": [
-          "0"
-        ],
-        "airConditioning": [
-          "1"
-        ],
-        "pool": [
-          "1"
-        ],
-        "alarmSystem": [
-          "0"
-        ],
-        "otherFeatures": [
-          "Built-In Wardrobes,Close to Schools,Close to Shops,Garden,Secure Parking"
-        ]
-      }
-    ],
-    "landDetails": [
-      {
-        "area": [
-          {
-            "_": "935",
-            "$": {
-              "unit": "squareMeter"
-            }
-          }
-        ]
-      }
-    ],
-    "inspectionTimes": [
-      ""
-    ],
-    "images": [
-      {
-        "img": [
-          {
-            "$": {
-              "id": "m",
-              "modTime": "2019-05-16-07:05",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/7991-Capture.JPG"
-            }
-          },
-          {
-            "$": {
-              "id": "a",
-              "modTime": "2019-05-16-07:05",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/8093-Capture2.JPG"
-            }
-          },
-          {
-            "$": {
-              "id": "b",
-              "modTime": "2019-05-16-07:05",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/8043-Capture1.JPG"
-            }
-          },
-          {
-            "$": {
-              "id": "c",
-              "modTime": "2019-05-16-07:05",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/8150-Capture3.JPG"
-            }
-          },
-          {
-            "$": {
-              "id": "d",
-              "modTime": "2019-05-16-07:05",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/8197-Capture4.JPG"
-            }
-          },
-          {
-            "$": {
-              "id": "e",
-              "modTime": "2019-05-16-07:05",
-              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/8245-Capture5.JPG"
-            }
-          },
-          {
-            "$": {
-              "id": "f"
-            }
-          },
-          {
-            "$": {
-              "id": "g"
-            }
-          },
-          {
-            "$": {
-              "id": "h"
-            }
-          },
-          {
-            "$": {
-              "id": "i"
-            }
-          },
-          {
-            "$": {
-              "id": "j"
-            }
-          },
-          {
-            "$": {
-              "id": "k"
-            }
-          },
-          {
-            "$": {
-              "id": "l"
-            }
-          },
-          {
-            "$": {
-              "id": "n"
-            }
-          },
-          {
-            "$": {
-              "id": "o"
-            }
-          },
-          {
-            "$": {
-              "id": "p"
-            }
-          },
-          {
-            "$": {
-              "id": "q"
-            }
-          },
-          {
-            "$": {
-              "id": "r"
-            }
-          },
-          {
-            "$": {
-              "id": "s"
-            }
-          },
-          {
-            "$": {
-              "id": "t"
-            }
-          },
-          {
-            "$": {
-              "id": "u"
-            }
-          },
-          {
-            "$": {
-              "id": "v"
-            }
-          },
-          {
-            "$": {
-              "id": "w"
-            }
-          },
-          {
-            "$": {
-              "id": "x"
-            }
-          },
-          {
-            "$": {
-              "id": "y"
-            }
-          },
-          {
-            "$": {
-              "id": "z"
-            }
-          }
-        ]
-      }
-    ],
-    "objects": [
-      {
-        "floorplan": [
-          {
-            "$": {
-              "id": "1"
-            }
-          }
-        ]
-      }
-    ],
-    "FeatureProperty": [
-      "0"
-    ],
-    "Geocode": [
-      {
-        "GoogleKey": [
-          ""
-        ],
-        "Latitude": [
-          "-17.0247253"
-        ],
-        "Longitude": [
-          "145.7262807"
-        ]
-      }
-    ]
-  },
-  {
-    "$": {
       "modTime": "2019-06-17-12:18",
       "status": "current"
     },
@@ -13105,6 +12785,326 @@
         ],
         "Longitude": [
           "145.726293"
+        ]
+      }
+    ]
+  },
+  {
+    "$": {
+      "modTime": "2019-07-09-09:20",
+      "status": "current"
+    },
+    "agentID": [
+      "25674"
+    ],
+    "clientID": [
+      "rwcairso"
+    ],
+    "uniqueID": "css20734217",
+    "authority": [
+      {
+        "$": {
+          "value": "exclusive"
+        }
+      }
+    ],
+    "underOffer": [
+      {
+        "$": {
+          "value": "no"
+        }
+      }
+    ],
+    "listingAgent": [
+      {
+        "$": {
+          "id": "1"
+        },
+        "name": [
+          "Therese Plath"
+        ],
+        "agentid": [
+          "444432"
+        ],
+        "telephone": [
+          {
+            "_": "0418 772 995",
+            "$": {
+              "type": "mobile"
+            }
+          }
+        ],
+        "email": [
+          "therese.plath@raywhite.com"
+        ]
+      }
+    ],
+    "price": [
+      {
+        "_": "490000",
+        "$": {
+          "display": "yes"
+        }
+      }
+    ],
+    "priceView": [
+      "Offers Over $490,000"
+    ],
+    "address": [
+      {
+        "$": {
+          "display": "yes"
+        },
+        "streetNumber": [
+          "34"
+        ],
+        "street": [
+          "Canecutter Road"
+        ],
+        "suburb": [
+          {
+            "_": "EDMONTON",
+            "$": {
+              "display": "yes"
+            }
+          }
+        ],
+        "state": [
+          "QLD"
+        ],
+        "postcode": [
+          "4869"
+        ]
+      }
+    ],
+    "category": [
+      {
+        "$": {
+          "name": "House"
+        }
+      }
+    ],
+    "headline": [
+      "Family Favourite with Access to Double Bay Shed & Backing Creek"
+    ],
+    "description": [
+      "Therese Plath is excited to present this very attractive and welcoming family home which will appeal to couples and families alike. Set on a large 935m2 block with attractive established landscaped gardens. \n\nWith local schools and parks nearby, a mountain background and no rear neighbours this home is ready for the savvy buyer to move right in!\n\nThe floor plan is simple and uncomplicated and offers so much more than meets the eye. This spacious family home features a fabulous kitchen to delight every chefs' dream - superbly equipped and offers a first class fit out from its quality appliances combined with the impressive stone bench tops and timber cabinetry.\n\nOther fantastic features include:\n\t\n-\t4 Generous bedrooms (en-suite and walk in robe)\n-\tFully air conditioned and tastefully tiled\n-\tMassive open plan living areas\n-\tExpansive tiled outdoor alfresco entertaining\n-\tWide side access to fenced backyard\n-\tTiled double remote car accommodation\n-\tSwimming pool - a magnet for summer celebrations\n-\tEasy access to powered double bay shed with mezzanine flooring\n\nDon't miss out on this outstanding value for money opportunity on the sparkling picture of perfection and convenient lifestyle! This exceptional opportunity awaits - Asking Offers Over $490,000 - do come and see for yourself and make your inspection today with Therese Plath on 0418 772995 or email therese.plath@raywhite.com"
+    ],
+    "features": [
+      {
+        "bedrooms": [
+          "4"
+        ],
+        "bathrooms": [
+          "2"
+        ],
+        "garages": [
+          "4"
+        ],
+        "carports": [
+          "0"
+        ],
+        "airConditioning": [
+          "1"
+        ],
+        "pool": [
+          "1"
+        ],
+        "alarmSystem": [
+          "0"
+        ],
+        "otherFeatures": [
+          "Built-In Wardrobes,Close to Schools,Close to Shops,Garden,Secure Parking"
+        ]
+      }
+    ],
+    "landDetails": [
+      {
+        "area": [
+          {
+            "_": "935",
+            "$": {
+              "unit": "squareMeter"
+            }
+          }
+        ]
+      }
+    ],
+    "inspectionTimes": [
+      ""
+    ],
+    "images": [
+      {
+        "img": [
+          {
+            "$": {
+              "id": "m",
+              "modTime": "2019-05-16-07:05",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/7991-Capture.JPG"
+            }
+          },
+          {
+            "$": {
+              "id": "a",
+              "modTime": "2019-05-16-07:05",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/8093-Capture2.JPG"
+            }
+          },
+          {
+            "$": {
+              "id": "b",
+              "modTime": "2019-05-16-07:05",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/8043-Capture1.JPG"
+            }
+          },
+          {
+            "$": {
+              "id": "c",
+              "modTime": "2019-05-16-07:05",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/8150-Capture3.JPG"
+            }
+          },
+          {
+            "$": {
+              "id": "d",
+              "modTime": "2019-05-16-07:05",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/8197-Capture4.JPG"
+            }
+          },
+          {
+            "$": {
+              "id": "e",
+              "modTime": "2019-05-16-07:05",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/8245-Capture5.JPG"
+            }
+          },
+          {
+            "$": {
+              "id": "f"
+            }
+          },
+          {
+            "$": {
+              "id": "g"
+            }
+          },
+          {
+            "$": {
+              "id": "h"
+            }
+          },
+          {
+            "$": {
+              "id": "i"
+            }
+          },
+          {
+            "$": {
+              "id": "j"
+            }
+          },
+          {
+            "$": {
+              "id": "k"
+            }
+          },
+          {
+            "$": {
+              "id": "l"
+            }
+          },
+          {
+            "$": {
+              "id": "n"
+            }
+          },
+          {
+            "$": {
+              "id": "o"
+            }
+          },
+          {
+            "$": {
+              "id": "p"
+            }
+          },
+          {
+            "$": {
+              "id": "q"
+            }
+          },
+          {
+            "$": {
+              "id": "r"
+            }
+          },
+          {
+            "$": {
+              "id": "s"
+            }
+          },
+          {
+            "$": {
+              "id": "t"
+            }
+          },
+          {
+            "$": {
+              "id": "u"
+            }
+          },
+          {
+            "$": {
+              "id": "v"
+            }
+          },
+          {
+            "$": {
+              "id": "w"
+            }
+          },
+          {
+            "$": {
+              "id": "x"
+            }
+          },
+          {
+            "$": {
+              "id": "y"
+            }
+          },
+          {
+            "$": {
+              "id": "z"
+            }
+          }
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "floorplan": [
+          {
+            "$": {
+              "id": "1"
+            }
+          }
+        ]
+      }
+    ],
+    "FeatureProperty": [
+      "0"
+    ],
+    "Geocode": [
+      {
+        "GoogleKey": [
+          ""
+        ],
+        "Latitude": [
+          "-17.0247253"
+        ],
+        "Longitude": [
+          "145.7262807"
         ]
       }
     ]
