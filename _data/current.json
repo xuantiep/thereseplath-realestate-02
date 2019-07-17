@@ -13166,5 +13166,363 @@
         ]
       }
     ]
+  },
+  {
+    "$": {
+      "modTime": "2019-07-17-14:36",
+      "status": "current"
+    },
+    "agentID": [
+      "25674"
+    ],
+    "clientID": [
+      "rwcairso"
+    ],
+    "uniqueID": "css21022835",
+    "authority": [
+      {
+        "$": {
+          "value": "exclusive"
+        }
+      }
+    ],
+    "underOffer": [
+      {
+        "$": {
+          "value": "no"
+        }
+      }
+    ],
+    "listingAgent": [
+      {
+        "$": {
+          "id": "1"
+        },
+        "name": [
+          "Therese Plath"
+        ],
+        "agentid": [
+          "444432"
+        ],
+        "telephone": [
+          {
+            "_": "0418 772 995",
+            "$": {
+              "type": "mobile"
+            }
+          }
+        ],
+        "email": [
+          "therese.plath@raywhite.com"
+        ]
+      }
+    ],
+    "price": [
+      {
+        "_": "500000",
+        "$": {
+          "display": "yes"
+        }
+      }
+    ],
+    "priceView": [
+      "Low $500's Range"
+    ],
+    "address": [
+      {
+        "$": {
+          "display": "yes"
+        },
+        "streetNumber": [
+          "228-236"
+        ],
+        "street": [
+          "Dempsey Street"
+        ],
+        "suburb": [
+          {
+            "_": "GORDONVALE",
+            "$": {
+              "display": "yes"
+            }
+          }
+        ],
+        "state": [
+          "QLD"
+        ],
+        "postcode": [
+          "4865"
+        ]
+      }
+    ],
+    "category": [
+      {
+        "$": {
+          "name": "House"
+        }
+      }
+    ],
+    "headline": [
+      "Elevated and Acreage Retreat on 6,530m2 Private Hideaway"
+    ],
+    "description": [
+      "It is a pleasure for Therese Plath to introduce to the market this spectacular family home. Presenting this ultimate secluded, private and tranquil property magnificently perched on 6,530m2 with tantalizing panoramic views of the surrounding mountains.\n  \nOozing charisma this wonderful property is located in Gordonvale and all within only 5 minutes to schools, shopping and sporting facilities and just 20 minutes easy drive to Cairns City and the famous Esplanade.\n\nThe practical galley kitchen is sure to be the home chef's delight, complete with stainless steel appliance including gas cook top, electric oven, breakfast bar, and an abundance of cupboard space.\n\nAs well as the modern, spacious lounge, dining and kitchen there is a separate family room where you have the choice of relaxing or entertaining.\n\nSet foot out the timber French doors and you will be whisked away by the allure of the large undercover timber deck, making it the perfect place for entertaining with friends and family while soaking up the natural light whilst overlooking the nearby hillsides.\n\nOff-street parking and a large multi-purpose large powered shed to the front of the property is suitable for use as a workshop, man-cave, or storage for additional vehicles. \n\nAdditional features include:\n\n- Air conditioned throughout\n- High ceilings\n- All bedrooms are generous in size, tiled and have built ins and have access to main \n  bathroom\n- Main bathroom is spacious, renovated and has spa bath\n- Solar panels\n- Two flat vacant areas - perfect to expand for extended family\n\nWe welcome your interest and inspection on this one of a kind home which provides an enviable lifestyle in a highly sought-after locale.  Please call Therese Plath on 0418 772 995."
+    ],
+    "features": [
+      {
+        "bedrooms": [
+          "5"
+        ],
+        "bathrooms": [
+          "2"
+        ],
+        "garages": [
+          "0"
+        ],
+        "carports": [
+          "0"
+        ],
+        "airConditioning": [
+          "1"
+        ],
+        "pool": [
+          "0"
+        ],
+        "alarmSystem": [
+          "0"
+        ],
+        "otherFeatures": [
+          "Built-In Wardrobes,Close to Schools,Close to Shops,Close to Transport,Garden"
+        ]
+      }
+    ],
+    "landDetails": [
+      {
+        "area": [
+          {
+            "_": "6530",
+            "$": {
+              "unit": "squareMeter"
+            }
+          }
+        ]
+      }
+    ],
+    "inspectionTimes": [
+      ""
+    ],
+    "images": [
+      {
+        "img": [
+          {
+            "$": {
+              "id": "m",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/14832-228-236DempseyStreet2of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "a",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/4957-228-236DempseyStreet20of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "b",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/5355-228-236DempseyStreet24of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "c",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/4729-228-236DempseyStreet18of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "d",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/15254-228-236DempseyStreet8of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "e",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/15186-228-236DempseyStreet7of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "f",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/14901-228-236DempseyStreet3of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "g",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/14970-228-236DempseyStreet4of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "h",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/15042-228-236DempseyStreet5of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "i",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/15114-228-236DempseyStreet6of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "j",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/15570-228-236DempseyStreet12of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "k",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/15499-228-236DempseyStreet11of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "l",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/4583-228-236DempseyStreet16of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "n",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/4509-228-236DempseyStreet15of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "o",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/15349-228-236DempseyStreet9of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "p",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/14756-228-236DempseyStreet1of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "q",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/4437-228-236DempseyStreet14of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "r",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/15420-228-236DempseyStreet10of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "s",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/15627-228-236DempseyStreet13of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "t",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/5034-228-236DempseyStreet21of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "u",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/4795-228-236DempseyStreet19of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "v",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/5153-228-236DempseyStreet22of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "w",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/5226-228-236DempseyStreet23of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "x",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/5459-228-236DempseyStreet25of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "y",
+              "modTime": "2019-07-17-14:36",
+              "url": "http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/4657-228-236DempseyStreet17of25.jpg"
+            }
+          },
+          {
+            "$": {
+              "id": "z"
+            }
+          }
+        ]
+      }
+    ],
+    "objects": [
+      {
+        "floorplan": [
+          {
+            "$": {
+              "id": "1"
+            }
+          }
+        ]
+      }
+    ],
+    "FeatureProperty": [
+      "0"
+    ],
+    "Geocode": [
+      {
+        "GoogleKey": [
+          ""
+        ],
+        "Latitude": [
+          "-17.0983539"
+        ],
+        "Longitude": [
+          "145.7714011"
+        ]
+      }
+    ]
   }
 ]
