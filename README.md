@@ -11,7 +11,7 @@ As a keepsake, the site is now at: https://callumflack.github.io/thereseplath-re
 
 ## Set-up
 
-The site uses Jekyll to build out pages and a blog. 
+The site uses Jekyll to build out pages, real estate listings and a blog. 
 
 Real Estate listings were populated by JSON files in the data directory, fed by an external server chron-job every day. 
 
